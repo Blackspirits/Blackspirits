@@ -2,7 +2,7 @@
 
 <hr>
 
-![Stats](./github-metrics.svg)
+![Metrics](./github-metrics.svg)
 
 <hr>
 
