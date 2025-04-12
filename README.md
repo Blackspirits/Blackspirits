@@ -2,6 +2,10 @@
 
 <hr>
 
+![Stats](./github-metrics.svg)
+
+<hr>
+
 
   ![](https://github-readme-stats.vercel.app/api?username=BlackSpirits\&include_all_commits=true\&theme=dracula)
   
