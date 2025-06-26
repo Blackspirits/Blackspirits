@@ -1,13 +1,17 @@
 # simkl_feed.py
+import os
 import requests
 import feedparser
 
 README_URL = "https://raw.githubusercontent.com/Blackspirits/Blackspirits/main/README.md"
 README_FILE = "README.md"  # local output
 
+SIMKL_TOKEN = os.getenv("SIMKL_TOKEN")
+BASE_URL = "https://api.simkl.com/feeds/list"
+
 # Feed URLs and section markers
-MOVIES_FEED = "https://api.simkl.com/feeds/list/movies/completed/rss/?token=872cca971c095c86cee4603e5e13ce1f&client_id=feeds&country=fr"
-SERIES_FEED = "https://api.simkl.com/feeds/list/tv/watching/rss/?token=872cca971c095c86cee4603e5e13ce1f&client_id=feeds&country=fr"
+MOVIES_FEED = f"{BASE_URL}/movies/completed/rss/?token={SIMKL_TOKEN}&client_id=feeds&country=fr"
+SERIES_FEED = f"{BASE_URL}/tv/watching/rss/?token={SIMKL_TOKEN}&client_id=feeds&country=fr"
 SECTION_START = "<!-- SIMKL_START -->"
 SECTION_END = "<!-- SIMKL_END -->"
 MAX_ITEMS = 3
