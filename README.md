@@ -95,6 +95,10 @@
   </a>
 </div>
 
+<!-- SIMKL_START -->
+(será substituído automaticamente)
+<!-- SIMKL_END -->
+
 <div align="center">
   <img
     src="https://github.com/Blackspirits/Blackspirits/blob/main/assets/blue-hr.png"
