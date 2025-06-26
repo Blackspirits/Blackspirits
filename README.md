@@ -96,7 +96,7 @@
 </div>
 
 <!-- SIMKL_START -->
-(será substituído automaticamente)
+(will be replaced automatically)
 <!-- SIMKL_END -->
 
 <div align="center">
