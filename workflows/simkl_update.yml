@@ -1,10 +1,9 @@
-- name: Run script to update README
-  run: python scripts/simkl_feed.py
+name: Update README with Simkl
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Every day at 07:00 UTC (08:00 in Portugal during summer)
-  workflow_dispatch:      # Allows manual run from GitHub interface
+    - cron: "*/10 * * * *"  # Every 10 minutes
+  workflow_dispatch:        # Allows manual run from GitHub interface
 
 jobs:
   build:
@@ -23,7 +22,7 @@ jobs:
       run: pip install feedparser requests
 
     - name: Run script to update README
-      run: python simkl_feed.py
+      run: python scripts/simkl_feed.py
 
     - name: Commit changes if any
       run: |
