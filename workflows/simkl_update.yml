@@ -22,7 +22,9 @@ jobs:
       run: pip install feedparser requests
 
     - name: Run script to update README
-      run: python scripts/simkl_feed.py
+      run: |
+        export SIMKL_TOKEN=${{ secrets.SIMKL_TOKEN }}
+        python scripts/simkl_feed.py
 
     - name: Commit changes if any
       run: |
