@@ -2,7 +2,7 @@ name: Update README with Simkl
 
 on:
   schedule:
-    - cron: "*/10 * * *"  # Every day at 07:00 UTC (08:00 in Portugal during summer)
+    - cron: "*/10 * * * *"  # Every day at 07:00 UTC (08:00 in Portugal during summer)
   workflow_dispatch:      # Allows manual run from GitHub interface
 
 jobs:
