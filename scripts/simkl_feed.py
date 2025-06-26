@@ -1,25 +1,18 @@
-# simkl_feed.py
+# scripts/simkl_feed.py
+import os
 import requests
 import feedparser
 
-README_URL = "https://raw.githubusercontent.com/Blackspirits/Blackspirits/main/README.md"
-README_FILE = "README.md"  # local output
-
-# Feed URLs and section markers
-MOVIES_FEED = "https://api.simkl.com/feeds/list/movies/completed/rss/?token=872cca971c095c86cee4603e5e13ce1f&client_id=feeds&country=fr"
-SERIES_FEED = "https://api.simkl.com/feeds/list/tv/watching/rss/?token=872cca971c095c86cee4603e5e13ce1f&client_id=feeds&country=fr"
+README_FILE = "README.md"
 SECTION_START = "<!-- SIMKL_START -->"
 SECTION_END = "<!-- SIMKL_END -->"
 MAX_ITEMS = 3
 
-def fetch_readme_from_github():
-    try:
-        response = requests.get(README_URL)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        print(f"Error fetching README.md: {e}")
-        return None
+# Feeds com token vindo do ambiente
+TOKEN = os.getenv("SIMKL_TOKEN")
+BASE_URL = f"https://api.simkl.com/feeds/list"
+MOVIES_FEED = f"{BASE_URL}/movies/completed/rss/?token={TOKEN}&client_id=feeds&country=fr"
+SERIES_FEED = f"{BASE_URL}/tv/watching/rss/?token={TOKEN}&client_id=feeds&country=fr"
 
 def format_entry(entry):
     title = entry.get("title", "Unknown Title")
@@ -41,10 +34,8 @@ def update_readme_section(content, new_section):
     return f"{before}\n{new_section}\n{after}"
 
 def main():
-    readme = fetch_readme_from_github()
-    if readme is None:
-        print("Failed to retrieve README.md from GitHub")
-        return
+    with open(README_FILE, "r", encoding="utf-8") as f:
+        readme = f.read()
 
     movies = get_feed_items(MOVIES_FEED, MAX_ITEMS)
     shows = get_feed_items(SERIES_FEED, MAX_ITEMS)
@@ -63,7 +54,8 @@ def main():
 
     with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(updated)
-    print(f"README.md successfully updated locally at '{README_FILE}'")
+
+    print("README.md updated successfully.")
 
 if __name__ == "__main__":
     main()
