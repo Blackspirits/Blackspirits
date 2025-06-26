@@ -1,4 +1,5 @@
-name: Update README with Simkl
+- name: Run script to update README
+  run: python scripts/simkl_feed.py
 
 on:
   schedule:
