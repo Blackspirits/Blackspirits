@@ -96,7 +96,19 @@
 </div>
 
 <!-- SIMKL_START -->
-(will be replaced automatically)
+## 🎞️ Recently Watched
+
+### Movies
+- 🎬 [Faith in the Impossible (2025)](https://simkl.com/movies/2455507/faith-in-the-impossible)
+- 🎬 [A Working Man (2025)](https://simkl.com/movies/2278933/a-working-man)
+- 🎬 [Last Bullet (2025)](https://simkl.com/movies/2216743/last-bullet)
+
+### TV Shows
+- 🎬 [Our Unwritten Seoul (2025)](https://simkl.com/shows/2525025/our-unwritten-seoul)
+- 🎬 [Criminal Code (2023)](https://simkl.com/shows/2038319/criminal-code)
+- 🎬 [YOLANTHE (2025)](https://simkl.com/shows/2608835/yolanthe)
+
+[📖 View more on Simkl](https://simkl.com/598901/dashboard/)
 <!-- SIMKL_END -->
 
 <div align="center">
