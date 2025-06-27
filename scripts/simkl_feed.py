@@ -1,4 +1,3 @@
-# simkl_feed.py
 import os
 import requests
 import feedparser
@@ -14,7 +13,7 @@ MOVIES_FEED = f"{BASE_URL}/movies/completed/rss/?token={SIMKL_TOKEN}&client_id=f
 SERIES_FEED = f"{BASE_URL}/tv/watching/rss/?token={SIMKL_TOKEN}&client_id=feeds&country=fr"
 SECTION_START = "<!-- SIMKL_START -->"
 SECTION_END = "<!-- SIMKL_END -->"
-MAX_ITEMS = 3
+MAX_ITEMS = 6  # more like 2 lines (3x2)
 
 def fetch_readme_from_github():
     try:
@@ -25,15 +24,46 @@ def fetch_readme_from_github():
         print(f"Error fetching README.md: {e}")
         return None
 
-def format_entry(entry):
+def format_entry_html(entry):
     title = entry.get("title", "Unknown Title")
-    link = entry.get("link", "")
-    emoji = "📺" if "/tv/" in link else "🎬"
-    return f"- {emoji} [{title}]({link})"
+    link = entry.get("link", "#")
+    # Try to get an image of the poster
+    img_url = None
+    if 'media_thumbnail' in entry:
+        img_url = entry.media_thumbnail[0]['url']
+    elif 'media_content' in entry:
+        img_url = entry.media_content[0]['url']
+    else:
+        # Placeholder if there is no image
+        img_url = "https://via.placeholder.com/100x150?text=No+Image"
 
-def get_feed_items(feed_url, max_items):
-    feed = feedparser.parse(feed_url)
-    return [format_entry(entry) for entry in feed.entries[:max_items]]
+    html = f'''
+    <td align="center" width="33%">
+      <a href="{link}" target="_blank" rel="noopener noreferrer">
+        <img src="{img_url}" width="100" style="border-radius:8px;" alt="{title}"/>
+      </a>
+      <br/>
+      <sub><strong>{title}</strong></sub>
+    </td>
+    '''
+    return html
+
+def make_table_html(entries):
+    rows = []
+    row = []
+    for i, entry in enumerate(entries):
+        row.append(format_entry_html(entry))
+        if (i + 1) % 3 == 0:
+            rows.append("<tr>" + "".join(row) + "</tr>")
+            row = []
+    # Complete the last line if necessary
+    if row:
+        while len(row) < 3:
+            row.append('<td></td>')
+        rows.append("<tr>" + "".join(row) + "</tr>")
+
+    table_html = "<table width='100%' style='table-layout: fixed;'><tbody>" + "".join(rows) + "</tbody></table>"
+    return table_html
 
 def update_readme_section(content, new_section):
     start = content.find(SECTION_START)
@@ -50,15 +80,20 @@ def main():
         print("Failed to retrieve README.md from GitHub")
         return
 
-    movies = get_feed_items(MOVIES_FEED, MAX_ITEMS)
-    shows = get_feed_items(SERIES_FEED, MAX_ITEMS)
+    movies_entries = feedparser.parse(MOVIES_FEED).entries[:MAX_ITEMS]
+    series_entries = feedparser.parse(SERIES_FEED).entries[:MAX_ITEMS]
+
+    movies_table = make_table_html(movies_entries)
+    series_table = make_table_html(series_entries)
 
     section_content = [
         "## 🎞️ Recently Watched",
         "",
-        "### Movies", *movies,
+        "### Movies",
+        movies_table,
         "",
-        "### TV Shows", *shows,
+        "### TV Shows",
+        series_table,
         "",
         "[📖 View more on Simkl](https://simkl.com/598901/dashboard/)"
     ]
