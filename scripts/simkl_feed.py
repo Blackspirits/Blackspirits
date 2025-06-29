@@ -34,10 +34,21 @@ def format_entry_html(entry):
     )
 
 def make_table_html(entries):
-    row = [format_entry_html(entry) for entry in entries[:MAX_ITEMS]]
-    while len(row) < 3:
-        row.append("<td></td>")
-    return f"<table width='100%' style='table-layout: fixed;'><tbody><tr>{''.join(row)}</tr></tbody></table>"
+    rows = []
+    row = []
+    for i, entry in enumerate(entries[:MAX_ITEMS]):
+        row.append(format_entry_html(entry))
+        if (i + 1) % 3 == 0:
+            rows.append("<tr>" + "".join(row) + "</tr>")
+            row = []
+    if row:
+        while len(row) < 3:
+            row.append("<td></td>")
+        rows.append("<tr>" + "".join(row) + "</tr>")
+    
+    # Envolve a tabela em <div align="center"> para centrar no GitHub
+    return f"<div align='center'><table width='100%' style='table-layout: fixed;'><tbody>{''.join(rows)}</tbody></table></div>"
+
 
 def update_readme_section(content, new_section):
     start = content.find(START_MARKER)
