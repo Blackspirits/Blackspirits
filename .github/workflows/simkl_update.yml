@@ -18,6 +18,9 @@ jobs:
       with:
         python-version: '3.x'
 
+    - name: Install dependencies
+      run: pip install requests
+
     - name: Run script to update README
       run: |
         export SIMKL_TOKEN=${{ secrets.SIMKL_TOKEN }}
