@@ -1,33 +1,35 @@
-## Hello World! <img src="https://github.com/Blackspirits/Blackspirits/blob/main/assets/Hi.gif" width="29px">
+## Hello World! <img src="https://github.com/Blackspirits/Blackspirits/blob/main/assets/Hi.gif" width="29px" />
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=6272A4" alt="Profile Views" />
-  
-  <a href="mailto:blackspirits@gmail.com">
+
+  <a href="mailto:blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
     <img alt="Email" src="https://img.shields.io/badge/📧-blackspirits@gmail.com-6272A4" />
   </a>
 
-  <a href="https://github.com/Blackspirits">
-    <img src="https://img.shields.io/github/followers/Blackspirits?label=follow&style=social" alt="GitHub Followers" />
+  <a href="https://github.com/Blackspirits" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/github/followers/Blackspirits?label=Followers&style=flat&color=6272A4&logo=github" />
   </a>
 
-  <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00">
-    <img src="https://img.shields.io/badge/💸-Donate%20via%20Stripe-6272A4?style=flat&logo=stripe&logoColor=white" alt="Tip Stripe" />
+  <a href="https://github.com/Blackspirits" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Open_Source-%E2%9D%A4%EF%B8%8F-6272A4?style=flat" alt="Open Source ❤️" />
   </a>
 
-  <a href="https://ko-fi.com/blackspirits">
-    <img src="https://img.shields.io/badge/☕-Ko--fi%20Donation-6272A4?style=flat&logo=ko-fi&logoColor=white" alt="Tip Ko-fi" />
-  </a>  
-<img src="https://github.com/Blackspirits/Blackspirits/blob/main/assets/life_balance.gif" alt="side Image" align="right" width="200" height="auto" />
+  <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/💸-Donate%20via%20Stripe-6272A4?style=flat&logo=stripe&logoColor=white" alt="Donate via Stripe" />
+  </a>
+
+  <a href="https://ko-fi.com/blackspirits" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/☕-Ko--fi%20Donation-6272A4?style=flat&logo=ko-fi&logoColor=white" alt="Donate via Ko-fi" />
+  </a>
+
+  <img src="https://github.com/Blackspirits/Blackspirits/blob/main/assets/life_balance.gif" alt="Side Image" align="right" width="200" />
 </p>
 
 <br clear="right" />
 
 <div align="center">
-  <img
-    src="https://github.com/Blackspirits/Blackspirits/blob/main/assets/blue-hr.png"
-    role="presentation"
-  />
+  <img src="https://github.com/Blackspirits/Blackspirits/blob/main/assets/blue-hr.png" alt="Divider" />
 </div>
 
 ## 👨‍💻 About Me
