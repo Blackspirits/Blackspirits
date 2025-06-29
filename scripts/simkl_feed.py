@@ -14,17 +14,25 @@ def format_entry_html(entry):
     title = entry.get("title", "Unknown Title")
     link = entry.get("link", "#")
 
-    # Tenta obter a imagem do thumbnail ou content
     img_url = None
     if 'media_thumbnail' in entry:
         img_url = entry.media_thumbnail[0]['url']
     elif 'media_content' in entry:
         img_url = entry.media_content[0]['url']
     else:
-        # Fallback para tentar extrair da descrição
         import re
         match = re.search(r'<img src="([^"]+)"', entry.get('description', ''))
-        img_url = match.group(1) if match else "https://via.placeholder.com/100x150?text=No+Image"
+        img_url = match.group(1) if match else None
+
+    if img_url:
+        # Corrigir URLs relativas
+        if img_url.startswith('/'):
+            img_url = "https://simkl.com" + img_url
+    else:
+        img_url = "https://via.placeholder.com/100x150?text=No+Image"
+
+    print(f"Title: {title}")
+    print(f"Image URL: {img_url}")
 
     return (
         f'<td align="center" width="33%">'
@@ -32,6 +40,7 @@ def format_entry_html(entry):
         f'<img src="{img_url}" width="100" style="border-radius:8px;" alt="{title}"/>'
         f'</a><br/><sub><strong>{title}</strong></sub></td>'
     )
+
 
 def make_table_html(entries):
     rows = []
