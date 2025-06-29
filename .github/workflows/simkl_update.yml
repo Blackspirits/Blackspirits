@@ -23,11 +23,15 @@ jobs:
         export SIMKL_TOKEN=${{ secrets.SIMKL_TOKEN }}
         python scripts/simkl_feed.py
 
-    - name: Commit changes if any
-      run: |
+        - name: Commit changes if any
+    run: |
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add README.md
-        git diff --cached --quiet || git commit -m "🤖 Update README with Simkl data"
-        git push
-
+        # Só commit se houver mudanças, e não falha se não houver
+        if ! git diff --cached --quiet; then
+          git commit -m "🤖 Update README with Simkl data"
+          git push
+        else
+          echo "No changes to commit"
+        fi
