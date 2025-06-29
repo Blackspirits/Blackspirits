@@ -1,97 +1,87 @@
 import os
-import requests
+import feedparser
 
-# Constants
-SIMKL_TOKEN = os.getenv("SIMKL_TOKEN")
-API_BASE_URL = "https://api.simkl.com"
 README_PATH = "README.md"
 START_MARKER = "<!-- SIMKL_START -->"
 END_MARKER = "<!-- SIMKL_END -->"
-POSTER_PLACEHOLDER = "https://via.placeholder.com/100x150?text=No+Image"
+SIMKL_TOKEN = os.getenv("SIMKL_TOKEN")
+MAX_ITEMS = 6
 
-def fetch_recent_history(limit=20):
-    url = f"https://api.simkl.com/user/history/items?limit={limit}"
-    headers = {
-        "Authorization": f"Bearer {SIMKL_TOKEN}",
-        "Content-Type": "application/json"
-    }
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
-    return response.json()
+MOVIES_FEED = f"https://api.simkl.com/feeds/list/movies/completed/rss/?token={SIMKL_TOKEN}&client_id=feeds"
+SERIES_FEED = f"https://api.simkl.com/feeds/list/tv/watching/rss/?token={SIMKL_TOKEN}&client_id=feeds"
 
-def format_entries(entries, kind, max_items=6):
-    """Format a list of movie or show entries as an HTML table."""
-    filtered = [e for e in entries if e["type"] == kind][:max_items]
+def format_entry_html(entry):
+    title = entry.get("title", "Unknown Title")
+    link = entry.get("link", "#")
 
-    title = "🎬 Movies" if kind == "movie" else "📺 TV Shows"
-    table_lines = [f"### {title}\n", "<table width='100%' style='table-layout: fixed;'><tbody><tr>"]
+    img_url = None
+    if 'media_thumbnail' in entry:
+        img_url = entry.media_thumbnail[0]['url']
+    elif 'media_content' in entry:
+        img_url = entry.media_content[0]['url']
+    else:
+        desc = entry.get('description', '') or ''
+        import re
+        match = re.search(r'<img src="([^"]+)"', desc)
+        img_url = match.group(1) if match else "https://via.placeholder.com/100x150?text=No+Image"
 
-    count = 0
-    for item in filtered:
-        info = item.get(kind, {})
-        name = info.get("title", "Untitled")
-        year = info.get("year", "")
-        slug = info.get("ids", {}).get("slug", "")
-        poster = info.get("poster", {}).get("url") or POSTER_PLACEHOLDER
-        simkl_url = f"https://simkl.com/{'movies' if kind == 'movie' else 'shows'}/{slug}"
+    return f'''
+    <td align="center" width="33%">
+      <a href="{link}" target="_blank" rel="noopener noreferrer">
+        <img src="{img_url}" width="100" style="border-radius:8px;" alt="{title}"/>
+      </a>
+      <br/>
+      <sub><strong>{title}</strong></sub>
+    </td>
+    '''
 
-        table_lines.append(
-            f'<td align="center" width="33%">'
-            f'<a href="{simkl_url}" target="_blank" rel="noopener noreferrer">'
-            f'<img src="{poster}" width="100" style="border-radius:8px;" alt="{name} ({year})"/>'
-            f'</a><br/><sub><strong>{name} ({year})</strong></sub>'
-            f'</td>'
-        )
-        count += 1
-        if count % 3 == 0:
-            table_lines.append("</tr><tr>")
-
-    table_lines.append("</tr></tbody></table>\n")
-    return "\n".join(table_lines)
+def make_table_html(entries):
+    rows = []
+    row = []
+    for i, entry in enumerate(entries[:MAX_ITEMS]):
+        row.append(format_entry_html(entry))
+        if (i + 1) % 3 == 0:
+            rows.append("<tr>" + "".join(row) + "</tr>")
+            row = []
+    if row:
+        while len(row) < 3:
+            row.append("<td></td>")
+        rows.append("<tr>" + "".join(row) + "</tr>")
+    return f"<table width='100%' style='table-layout: fixed;'><tbody>{''.join(rows)}</tbody></table>"
 
 def update_readme_section(content, new_section):
-    """Replace the section between START_MARKER and END_MARKER in README.md."""
-    start_index = content.find(START_MARKER)
-    end_index = content.find(END_MARKER)
-    if start_index == -1 or end_index == -1:
+    start = content.find(START_MARKER)
+    end = content.find(END_MARKER)
+    if start == -1 or end == -1:
         raise ValueError("Markers not found in README.md")
-
-    updated_content = (
-        content[: start_index + len(START_MARKER)]
-        + "\n"
-        + new_section.strip()
-        + "\n"
-        + content[end_index:]
-    )
-    return updated_content
+    return content[:start + len(START_MARKER)] + "\n" + new_section + "\n" + content[end:]
 
 def main():
     if not SIMKL_TOKEN:
-        print("Error: SIMKL_TOKEN environment variable is not set.")
+        print("Error: SIMKL_TOKEN is not set.")
         return
 
-    print("Fetching recent watched items from Simkl...")
-    history = fetch_recent_history()
+    movies_feed = feedparser.parse(MOVIES_FEED)
+    series_feed = feedparser.parse(SERIES_FEED)
 
-    print("Formatting Markdown content...")
-    movies_md = format_entries(history, "movie", max_items=6)
-    shows_md = format_entries(history, "show", max_items=6)
+    movies_html = make_table_html(movies_feed.entries)
+    series_html = make_table_html(series_feed.entries)
 
-    markdown_section = (
-        "## 🎞️ Recently Watched\n\n"
-        + movies_md
-        + "\n"
-        + shows_md
-        + "\n"
-        + "[📖 View more on Simkl](https://simkl.com/598901/dashboard/)\n"
-    )
+    section_md = f"""## 🎞️ Recently Watched
 
-    print(f"Reading {README_PATH}...")
+### Movies
+{movies_html}
+
+### TV Shows
+{series_html}
+
+[📖 View more on Simkl](https://simkl.com/598901/dashboard/)
+"""
+
     with open(README_PATH, "r", encoding="utf-8") as f:
-        content = f.read()
+        readme_content = f.read()
 
-    print("Updating README.md content...")
-    updated = update_readme_section(content, markdown_section)
+    updated = update_readme_section(readme_content, section_md)
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(updated)
