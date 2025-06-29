@@ -28,7 +28,6 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add README.md
-        # Só commit se houver mudanças, e não falha se não houver
         if ! git diff --cached --quiet; then
           git commit -m "🤖 Update README with Simkl data"
           git push
