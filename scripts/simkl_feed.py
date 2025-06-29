@@ -1,108 +1,100 @@
 import os
 import requests
-import feedparser
 
-README_URL = "https://raw.githubusercontent.com/Blackspirits/Blackspirits/main/README.md"
-README_FILE = "README.md"  # local output
-
+# Constants
 SIMKL_TOKEN = os.getenv("SIMKL_TOKEN")
-BASE_URL = "https://api.simkl.com/feeds/list"
+API_BASE_URL = "https://api.simkl.com"
+README_PATH = "README.md"
+START_MARKER = "<!-- SIMKL_START -->"
+END_MARKER = "<!-- SIMKL_END -->"
+POSTER_PLACEHOLDER = "https://via.placeholder.com/100x150?text=No+Image"
 
-# Feed URLs and section markers
-MOVIES_FEED = f"{BASE_URL}/movies/completed/rss/?token={SIMKL_TOKEN}&client_id=feeds&country=fr"
-SERIES_FEED = f"{BASE_URL}/tv/watching/rss/?token={SIMKL_TOKEN}&client_id=feeds&country=fr"
-SECTION_START = "<!-- SIMKL_START -->"
-SECTION_END = "<!-- SIMKL_END -->"
-MAX_ITEMS = 6  # more like 2 lines (3x2)
+def fetch_recent_history(limit=20):
+    """Fetch recent watched history from Simkl API."""
+    url = f"{API_BASE_URL}/history/all-items?limit={limit}"
+    headers = {"Authorization": f"Bearer {SIMKL_TOKEN}"}
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    return response.json()
 
-def fetch_readme_from_github():
-    try:
-        response = requests.get(README_URL)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        print(f"Error fetching README.md: {e}")
-        return None
+def format_entries(entries, kind, max_items=6):
+    """Format a list of movie or show entries as an HTML table."""
+    filtered = [e for e in entries if e["type"] == kind][:max_items]
 
-def format_entry_html(entry):
-    title = entry.get("title", "Unknown Title")
-    link = entry.get("link", "#")
-    # Try to get an image of the poster
-    img_url = None
-    if 'media_thumbnail' in entry:
-        img_url = entry.media_thumbnail[0]['url']
-    elif 'media_content' in entry:
-        img_url = entry.media_content[0]['url']
-    else:
-        # Placeholder if there is no image
-        img_url = "https://via.placeholder.com/100x150?text=No+Image"
+    title = "🎬 Movies" if kind == "movie" else "📺 TV Shows"
+    table_lines = [f"### {title}\n", "<table width='100%' style='table-layout: fixed;'><tbody><tr>"]
 
-    html = f'''
-    <td align="center" width="33%">
-      <a href="{link}" target="_blank" rel="noopener noreferrer">
-        <img src="{img_url}" width="100" style="border-radius:8px;" alt="{title}"/>
-      </a>
-      <br/>
-      <sub><strong>{title}</strong></sub>
-    </td>
-    '''
-    return html
+    count = 0
+    for item in filtered:
+        info = item.get(kind, {})
+        name = info.get("title", "Untitled")
+        year = info.get("year", "")
+        slug = info.get("ids", {}).get("slug", "")
+        poster = info.get("poster", {}).get("url") or POSTER_PLACEHOLDER
+        simkl_url = f"https://simkl.com/{'movies' if kind == 'movie' else 'shows'}/{slug}"
 
-def make_table_html(entries):
-    rows = []
-    row = []
-    for i, entry in enumerate(entries):
-        row.append(format_entry_html(entry))
-        if (i + 1) % 3 == 0:
-            rows.append("<tr>" + "".join(row) + "</tr>")
-            row = []
-    # Complete the last line if necessary
-    if row:
-        while len(row) < 3:
-            row.append('<td></td>')
-        rows.append("<tr>" + "".join(row) + "</tr>")
+        table_lines.append(
+            f'<td align="center" width="33%">'
+            f'<a href="{simkl_url}" target="_blank" rel="noopener noreferrer">'
+            f'<img src="{poster}" width="100" style="border-radius:8px;" alt="{name} ({year})"/>'
+            f'</a><br/><sub><strong>{name} ({year})</strong></sub>'
+            f'</td>'
+        )
+        count += 1
+        if count % 3 == 0:
+            table_lines.append("</tr><tr>")
 
-    table_html = "<table width='100%' style='table-layout: fixed;'><tbody>" + "".join(rows) + "</tbody></table>"
-    return table_html
+    table_lines.append("</tr></tbody></table>\n")
+    return "\n".join(table_lines)
 
 def update_readme_section(content, new_section):
-    start = content.find(SECTION_START)
-    end = content.find(SECTION_END)
-    if start == -1 or end == -1:
-        raise ValueError("Section markers not found in README.md")
-    before = content[:start + len(SECTION_START)]
-    after = content[end:]
-    return f"{before}\n{new_section}\n{after}"
+    """Replace the section between START_MARKER and END_MARKER in README.md."""
+    start_index = content.find(START_MARKER)
+    end_index = content.find(END_MARKER)
+    if start_index == -1 or end_index == -1:
+        raise ValueError("Markers not found in README.md")
+
+    updated_content = (
+        content[: start_index + len(START_MARKER)]
+        + "\n"
+        + new_section.strip()
+        + "\n"
+        + content[end_index:]
+    )
+    return updated_content
 
 def main():
-    readme = fetch_readme_from_github()
-    if readme is None:
-        print("Failed to retrieve README.md from GitHub")
+    if not SIMKL_TOKEN:
+        print("Error: SIMKL_TOKEN environment variable is not set.")
         return
 
-    movies_entries = feedparser.parse(MOVIES_FEED).entries[:MAX_ITEMS]
-    series_entries = feedparser.parse(SERIES_FEED).entries[:MAX_ITEMS]
+    print("Fetching recent watched items from Simkl...")
+    history = fetch_recent_history()
 
-    movies_table = make_table_html(movies_entries)
-    series_table = make_table_html(series_entries)
+    print("Formatting Markdown content...")
+    movies_md = format_entries(history, "movie", max_items=6)
+    shows_md = format_entries(history, "show", max_items=6)
 
-    section_content = [
-        "## 🎞️ Recently Watched",
-        "",
-        "### Movies",
-        movies_table,
-        "",
-        "### TV Shows",
-        series_table,
-        "",
-        "[📖 View more on Simkl](https://simkl.com/598901/dashboard/)"
-    ]
+    markdown_section = (
+        "## 🎞️ Recently Watched\n\n"
+        + movies_md
+        + "\n"
+        + shows_md
+        + "\n"
+        + "[📖 View more on Simkl](https://simkl.com/598901/dashboard/)\n"
+    )
 
-    updated = update_readme_section(readme, "\n".join(section_content))
+    print(f"Reading {README_PATH}...")
+    with open(README_PATH, "r", encoding="utf-8") as f:
+        content = f.read()
 
-    with open(README_FILE, "w", encoding="utf-8") as f:
+    print("Updating README.md content...")
+    updated = update_readme_section(content, markdown_section)
+
+    with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(updated)
-    print(f"README.md successfully updated locally at '{README_FILE}'")
+
+    print(f"{README_PATH} successfully updated!")
 
 if __name__ == "__main__":
     main()
