@@ -10,9 +10,11 @@ END_MARKER = "<!-- SIMKL_END -->"
 POSTER_PLACEHOLDER = "https://via.placeholder.com/100x150?text=No+Image"
 
 def fetch_recent_history(limit=20):
-    """Fetch recent watched history from Simkl API."""
-    url = f"{API_BASE_URL}/history/all-items?limit={limit}"
-    headers = {"Authorization": f"Bearer {SIMKL_TOKEN}"}
+    url = f"https://api.simkl.com/user/history/items?limit={limit}"
+    headers = {
+        "Authorization": f"Bearer {SIMKL_TOKEN}",
+        "Content-Type": "application/json"
+    }
     response = requests.get(url, headers=headers)
     response.raise_for_status()
     return response.json()
