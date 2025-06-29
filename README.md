@@ -99,10 +99,10 @@
 ## 🎞️ Recently Watched
 
 ### Movies
-<div align='center'><table width='100%' style='table-layout: fixed;'><tbody></tbody></table></div>
+<table width='100%' style='table-layout: fixed;'><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
 
 ### TV Shows
-<div align='center'><table width='100%' style='table-layout: fixed;'><tbody></tbody></table></div>
+<table width='100%' style='table-layout: fixed;'><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
 
 [📖 View more on Simkl](https://simkl.com/598901/dashboard/)
 <!-- SIMKL_END -->
