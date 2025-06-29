@@ -22,7 +22,8 @@ jobs:
 
       - name: Run script to update README
         env:
-          SIMKL_TOKEN: ${{ secrets.SIMKL_TOKEN }}
+          SIMKL_CLIENT_ID: ${{ secrets.SIMKL_CLIENT_ID }}
+          SIMKL_ACCESS_TOKEN: ${{ secrets.SIMKL_ACCESS_TOKEN }}
         run: python scripts/simkl_feed.py
 
       - name: Commit changes if any
@@ -37,4 +38,3 @@ jobs:
           else
             echo "No changes to commit"
           fi
-
