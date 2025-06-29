@@ -32,6 +32,7 @@ jobs:
           git add README.md
           if ! git diff --cached --quiet; then
             git commit -m "🤖 Update README with Simkl data"
+            git pull --rebase origin main
             git push
           else
             echo "No changes to commit"
