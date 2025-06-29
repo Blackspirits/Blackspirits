@@ -22,17 +22,7 @@ def format_entry_html(entry):
     else:
         import re
         match = re.search(r'<img src="([^"]+)"', entry.get('description', ''))
-        img_url = match.group(1) if match else None
-
-    if img_url:
-        # Corrigir URLs relativas
-        if img_url.startswith('/'):
-            img_url = "https://simkl.com" + img_url
-    else:
-        img_url = "https://via.placeholder.com/100x150?text=No+Image"
-
-    print(f"Title: {title}")
-    print(f"Image URL: {img_url}")
+        img_url = match.group(1) if match else "https://via.placeholder.com/100x150?text=No+Image"
 
     return (
         f'<td align="center" width="33%">'
@@ -41,23 +31,11 @@ def format_entry_html(entry):
         f'</a><br/><sub><strong>{title}</strong></sub></td>'
     )
 
-
 def make_table_html(entries):
-    rows = []
-    row = []
-    for i, entry in enumerate(entries[:MAX_ITEMS]):
-        row.append(format_entry_html(entry))
-        if (i + 1) % 3 == 0:
-            rows.append("<tr>" + "".join(row) + "</tr>")
-            row = []
-    if row:
-        while len(row) < 3:
-            row.append("<td></td>")
-        rows.append("<tr>" + "".join(row) + "</tr>")
-    
-    # Envolve a tabela em <div align="center"> para centrar no GitHub
-    return f"<div align='center'><table width='100%' style='table-layout: fixed;'><tbody>{''.join(rows)}</tbody></table></div>"
-
+    row = [format_entry_html(entry) for entry in entries[:MAX_ITEMS]]
+    while len(row) < 3:
+        row.append("<td></td>")
+    return f"<table width='100%' style='table-layout: fixed;'><tbody><tr>{''.join(row)}</tr></tbody></table>"
 
 def update_readme_section(content, new_section):
     start = content.find(START_MARKER)
