@@ -46,7 +46,27 @@
 - 🎬 I watch over 100 movies and TV series every year — from timeless classics to fresh releases
 - 💻 I love tweaking code for fun
 - 🌍 I'm obsessed with perfect localization (pt-PT ❤️)
-- 🗣️ Currently learning Korean — 한글 배우는 중! 🇰🇷
+- 🗣️ Currently learning Korean — <img src="https://flagcdn.com/w40/kr.png" width="20" alt="South Korea Flag" /> 한글 배우는 중!
+
+<div align="center">
+  <img
+    src="https://github.com/Blackspirits/Blackspirits/blob/main/assets/blue-hr.png"
+    role="presentation"
+  />
+</div>
+
+## 🎞️ Recently Watched
+
+<p align="center">
+  Curious about what I'm currently watching?<br/>
+  Movies, TV shows, and more — all on my Simkl profile.
+</p>
+
+<p align="center">
+  <a href="https://simkl.com/598901/dashboard/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/View%20on%20Simkl-6272A4?style=flat&logo=simkl" alt="View on Simkl" />
+  </a>
+</p>
 
 <div align="center">
   <img
@@ -96,18 +116,6 @@
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=11175393066&cover_image=true&theme=default&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
   </a>
 </div>
-
-<!-- SIMKL_START -->
-## 🎞️ Recently Watched
-
-### Movies
-<div align='center'><table width='100%' style='table-layout: fixed;'></table></div>
-
-### TV Shows
-<div align='center'><table width='100%' style='table-layout: fixed;'></table></div>
-
-[📖 View more on Simkl](https://simkl.com/598901/dashboard/)
-<!-- SIMKL_END -->
 
 <div align="center">
   <img
