@@ -37,6 +37,18 @@
 
 [🌐 Visit my personal site](https://blackspirits.github.io)
 
+## 🛠️ Core Focus
+
+- Automation & scripting  
+- Media platforms & metadata  
+- European Portuguese localization (pt-PT)  
+- Open-source tooling & community platforms  
+
+<div align="center">
+  <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
+       alt="" aria-hidden="true" loading="lazy">
+</div>
+
 ## 🤔 Did you know?
 - 🎬 I watch over 100 movies and TV series every year — from timeless classics to fresh releases
 - 💻 I love tweaking code for fun
@@ -73,7 +85,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BlackSpirits&layout=compact&theme=radical" />
+  <img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=BlackSpirits&layout=compact&theme=radical](https://githubcard.com/Blackspirits.svg?d=0_Ch8LNF)" />
 </p>
 
 <div align="center">
@@ -110,6 +122,6 @@
 </div>
 
 <p align="center">
-  Thanks for visiting my profile! 👋  
-  Feel free to explore, contribute, or just say hi!
+  Thanks for visiting my profile! 
+  Feel free to explore, contribute — or just say hi 👋
 </p><p align="right"><a href="#readme">↑ Back to top</a></p>
