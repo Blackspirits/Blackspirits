@@ -7,6 +7,7 @@
     </picture>
   </a>
 </p>
+<h3 align="center">Born to explore. Coded to connect. 🌍</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=E6E9EF&style=flat" alt="Profile Visits" />
@@ -31,18 +32,18 @@
 
 🎯 💻Programmer, technology enthusiast and open-source contributor  
 📝 Translator and reviewer for several projects in European Portuguese (pt-PT)  
-🌐 Admin at [Pipocas.tv](https://pipocas.tv) and moderator at [TheTVDB](https://www.thetvdb.com)  
+🌐 I develop and maintain [Pipocas.tv](https://pipocas.tv) and contribute as a moderator at [TheTVDB](https://www.thetvdb.com)  
 🎬 Passionate about the Seventh Art — from classic cinema to modern streaming series  
 📍 Based in Portugal
 
-[🌐 Visit my personal site](https://blackspirits.github.io)
+👉 **[Visit my personal site: blackspirits.github.io](https://blackspirits.github.io)**
 
 ## 🛠️ Core Focus
 
-- Automation & scripting  
-- Media platforms & metadata  
-- European Portuguese localization (pt-PT)  
-- Open-source tooling & community platforms  
+- Automation & Scripting
+- Media Platforms & Metadata
+- European Portuguese Localization (pt-PT)
+- Open-Source Tooling & Community Platforms
 
 <div align="center">
   <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
@@ -102,15 +103,16 @@
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
-## ☕ Support the project
-
-<a href="https://ko-fi.com/blackspirits">
-  <img src="https://media3.giphy.com/media/ZEB6yFbLnhyQf7g3hn/giphy.gif" alt="Ko-fi" width="150"/>
-</a>
+## 🎧 Vibe & Support
 
 <div align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm1ieDBldjZxZjRyMDh5djh6YnQ5YzU5MzBrNTJzNHJ6MTByZ3VmeSZlcD12MV9pbGVybmFsX2dpZl9ieV9pZCZjdD1n/Uuh6Gl2ijHZNFmBNBB/giphy.gif" width="350" height="auto" />
-  <p><em>Stay creative. Keep coding. 🎧💻</em></p>
+  <p><em>Stay creative. Keep coding.</em></p>
+  <a href="https://ko-fi.com/blackspirits" target="_blank">
+    <img src="https://media3.giphy.com/media/ZEB6yFbLnhyQf7g3hn/giphy.gif" alt="Support on Ko-fi" width="150"/>
+  </a>
+  
+  <br/><br/>
+  
   <a href="https://open.spotify.com/user/11175393066">
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=11175393066&cover_image=true&theme=default&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
   </a>
@@ -122,6 +124,7 @@
 </div>
 
 <p align="center">
-  Thanks for visiting my profile! 
+  Thanks for visiting my profile! <br/>
   Feel free to explore, contribute — or just say hi 👋
-</p><p align="right"><a href="#readme">↑ Back to top</a></p>
+</p>
+<p align="right"><a href="#readme">↑ Back to top</a></p>
