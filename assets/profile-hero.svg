@@ -55,7 +55,7 @@
       <text x="80" y="160" class="title">Hello, World! I’m BlackSpirits</text>
       <text x="80" y="196" class="subtitle">
         <tspan x="80" dy="0">Developer • Open-source contributor • pt-PT translator</tspan>
-        <tspan x="80" dy="22">Cinema, TV &amp; Music • Admin Pipocas.tv • Mod TheTVDB • Adventure &amp; Travel • Portugal 🇵🇹</tspan>
+        <tspan x="80" dy="22">Cinema, TV &amp; Music • Adventure &amp; Travel • Portugal 🇵🇹</tspan>
       </text>
 
       <!-- pills -->
@@ -97,8 +97,9 @@
 
     <!-- meta lines -->
     <g class="meta" text-anchor="middle" transform="translate(-200,0)">
-      <text x="600" y="300">JS  •  CSS  •  Userscripts  •  Localization (pt-PT)  •  Cinema, TV &amp; Music</text>
-      <text x="600" y="324">Open Source  •  Admin Pipocas.tv  •  Mod TheTVDB  •  Adventure &amp; Travel</text>
+      <text x="600" y="300">C++  •  C#  •  Python  •  TypeScript  •  Automation</text>
+      
+      <text x="600" y="324">Userscripts  •  Localization (pt-PT)  •  Visual Storytelling</text>
     </g>
 
     <!-- handle -->
@@ -108,3 +109,4 @@
   <!-- subtle outline to emphasize the rounded corners on white backgrounds -->
   <rect x="0.5" y="0.5" width="1199" height="359" rx="24" ry="24" fill="none" stroke="rgba(205,214,244,.18)"/>
 </svg>
+
