@@ -23,7 +23,7 @@
   <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00">
     <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635bff?style=flat&labelColor=E6E9EF&logo=stripe&logoColor=1F2937"></a>
   
-  <a href="https://paypal.me/BlackSpirits">
+  <a href="https://www.paypal.com/paypalme/filipemota">
     <img alt="PayPal" src="https://img.shields.io/badge/PayPal-003087?style=flat&labelColor=E6E9EF&logo=paypal&logoColor=1F2937" /></a>
   
   <a href="https://ko-fi.com/blackspirits">
