@@ -1,4 +1,3 @@
-<!-- Profile/banner -->
 <p align="center">
   <a href="https://github.com/BlackSpirits?tab=followers" rel="noopener">
     <picture>
@@ -10,27 +9,33 @@
 <h3 align="center">Born to explore. Coded to connect. 🌍</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=E6E9EF&style=flat" alt="Profile Visits" />
-  <a href="mailto:blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img alt="Contact" src="https://img.shields.io/badge/Contact-Email-F2CDCD?style=flat&labelColor=E6E9EF&logo=gmail&logoColor=1F2937" /></a>
-  <a href="https://github.com/Blackspirits" target="_blank" rel="noopener noreferrer">
-    <img alt="GitHub Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat&labelColor=E6E9EF&color=94E2D5&logo=github&logoColor=1F2937" /></a>
-  <a href="https://github.com/BlackSpirits" target="_blank" rel="noopener noreferrer">
-    <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-F2CDCD?style=flat&labelColor=E6E9EF&logo=github&logoColor=1F2937"></a>
-  <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00">
-    <img alt="Donate via Stripe" src="https://img.shields.io/badge/Donate%20via%20Stripe-Stripe?style=flat&labelColor=E6E9EF&color=D0BCFF&logo=stripe&logoColor=1F2937"></a>
-  <a href="https://ko-fi.com/blackspirits">
-    <img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-Support?style=flat&labelColor=E6E9EF&color=F2CDCD&logo=ko-fi&logoColor=1F2937"></a>
-</p>
+  <img alt="Profile Visits" src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=4C8F8B&abbreviated=true&style=flat" />
 
-<div align="center">
-  <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
-       alt="" aria-hidden="true" loading="lazy">
-</div>
+  <a href="https://github.com/Blackspirits" target="_blank" rel="noopener noreferrer">
+    <img alt="GitHub Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat&color=4C8F8B&logo=github" /></a>
+
+  <a href="https://github.com/BlackSpirits" target="_blank" rel="noopener noreferrer">
+    <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-F2CDCD?style=flat&logo=githubsponsors&logoColor=e31b23&labelColor=E6E9EF" /></a>
+
+  <a href="mailto:blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img alt="Contact" src="https://img.shields.io/badge/Email-D14836?style=flat&labelColor=E6E9EF&logo=gmail&logoColor=1F2937" /></a>
+  
+  <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00">
+    <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635bff?style=flat&labelColor=E6E9EF&logo=stripe&logoColor=1F2937"></a>
+  
+  <a href="https://paypal.me/BlackSpirits">
+    <img alt="PayPal" src="https://img.shields.io/badge/PayPal-003087?style=flat&labelColor=E6E9EF&logo=paypal&logoColor=1F2937" /></a>
+  
+  <a href="https://ko-fi.com/blackspirits">
+    <img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&labelColor=E6E9EF&logo=ko-fi&logoColor=1F2937"></a>
+
+  <a href="https://buymeacoffee.com/blackspirits28" target="_blank" rel="noopener noreferrer">
+    <img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-F5E27A?style=flat&logo=buymeacoffee&logoColor=1F2937&labelColor=E6E9EF" /></a>
+</p>
 
 ## 👨‍💻 About Me
 
-🎯 💻Programmer, technology enthusiast and open-source contributor  
+🎯 💻 Programmer, technology enthusiast and open-source contributor  
 📝 Translator and reviewer for several projects in European Portuguese (pt-PT)  
 🌐 I develop and maintain [Pipocas.tv](https://pipocas.tv) and contribute as a moderator at [TheTVDB](https://www.thetvdb.com)  
 🎬 Passionate about the Seventh Art — from classic cinema to modern streaming series  
@@ -86,7 +91,7 @@
 </p>
 
 <p align="center">
-  <img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=BlackSpirits&layout=compact&theme=radical](https://githubcard.com/Blackspirits.svg?d=0_Ch8LNF)" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BlackSpirits&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
 <div align="center">
