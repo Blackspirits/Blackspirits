@@ -17,8 +17,8 @@
   <a href="https://github.com/BlackSpirits" target="_blank" rel="noopener noreferrer">
     <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-F2CDCD?style=flat&logo=githubsponsors&logoColor=e31b23&labelColor=E6E9EF" /></a>
 
-  <a href="mailto:blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img alt="Contact" src="https://img.shields.io/badge/Email-D14836?style=flat&labelColor=E6E9EF&logo=gmail&logoColor=1F2937" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&to=blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat&labelColor=E6E9EF&logo=gmail&logoColor=1F2937" /></a>
   
   <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00">
     <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635bff?style=flat&labelColor=E6E9EF&logo=stripe&logoColor=1F2937"></a>
