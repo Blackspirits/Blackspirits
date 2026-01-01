@@ -11,13 +11,13 @@
 <p align="center">
   <img alt="Profile Visits" src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=4C8F8B&abbreviated=true&style=flat" />
 
-  <a href="https://github.com/Blackspirits" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/Blackspirits?tab=followers" target="_blank" rel="noopener noreferrer">
     <img alt="GitHub Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat&color=4C8F8B&logo=github" /></a>
 
   <a href="https://github.com/BlackSpirits" target="_blank" rel="noopener noreferrer">
     <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-F2CDCD?style=flat&logo=githubsponsors&logoColor=e31b23&labelColor=E6E9EF" /></a>
 
-  <a href="mailto:blackspirits@gmail.com" rel="noopener noreferrer">
+  <a href="mailto:blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
     <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat&labelColor=E6E9EF&logo=gmail&logoColor=1F2937" /></a>
   
   <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00">
