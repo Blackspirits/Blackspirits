@@ -55,7 +55,7 @@
       <text x="80" y="160" class="title">Hello, World! I’m BlackSpirits</text>
       <text x="80" y="196" class="subtitle">
         <tspan x="80" dy="0">Developer • Open-source contributor • pt-PT translator</tspan>
-        <tspan x="80" dy="22">Cinema, TV &amp; Music • Adventure &amp; Travel • Portugal 🇵🇹</tspan>
+        <tspan x="80" dy="22">Cinema, TV &amp; Music • Adventure &amp; Travel • Portugal</tspan>
       </text>
 
       <!-- pills -->
