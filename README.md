@@ -14,6 +14,12 @@
   <a href="https://github.com/Blackspirits?tab=followers" target="_blank" rel="noopener noreferrer">
     <img alt="GitHub Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat&color=4C8F8B&logo=github" /></a>
 
+  <a href="https://github.com/BlackSpirits/UserScripts-UserStyles" target="_blank" rel="noopener noreferrer">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/BlackSpirits/UserScripts-UserStyles?style=flat&label=Stars&color=4C8F8B&logo=github" /></a>
+
+  <a href="https://github.com/BlackSpirits/UserScripts-UserStyles" target="_blank" rel="noopener noreferrer">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/BlackSpirits/UserScripts-UserStyles?style=flat&label=Last%20Update&color=4C8F8B&logo=github" /></a>
+
   <a href="https://github.com/BlackSpirits" target="_blank" rel="noopener noreferrer">
     <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-F2CDCD?style=flat&logo=githubsponsors&logoColor=e31b23&labelColor=E6E9EF" /></a>
 
@@ -49,6 +55,17 @@
 - Media Platforms & Metadata
 - European Portuguese Localization (pt-PT)
 - Open-Source Tooling & Community Platforms
+
+## 🧩 Featured Projects
+
+🧠 **UserScripts & UserStyles**  
+A collection of userscripts and userstyles created and maintained by me, shared with the open-source community, and focused on automation, media workflows, UX improvements, and productivity.
+
+<p align="center">
+  <a href="https://github.com/BlackSpirits/UserScripts-UserStyles">
+    <img src="https://img.shields.io/badge/Featured%20Repo-UserScripts%20%26%20UserStyles-4C8F8B?style=flat&logo=github" />
+  </a>
+</p>
 
 <div align="center">
   <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
