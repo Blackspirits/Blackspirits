@@ -104,11 +104,11 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BlackSpirits&show_icons=true&include_all_commits=true&theme=radical" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=BlackSpirits&show_icons=true&include_all_commits=true&theme=radical" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BlackSpirits&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=BlackSpirits&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
 <div align="center">
