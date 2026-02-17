@@ -14,11 +14,11 @@
   <a href="https://github.com/BlackSpirits?tab=followers" target="_blank" rel="noopener noreferrer">
     <img alt="GitHub Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat&color=4C8F8B&logo=github" /></a>
 
-  <a href="https://github.com/BlackSpirits/UserScripts-UserStyles" target="_blank" rel="noopener noreferrer">
-    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/BlackSpirits/UserScripts-UserStyles?style=flat&label=Stars&color=4C8F8B&logo=github" /></a>
+  <a href="https://github.com/BlackSpirits/Blackspirits" target="_blank" rel="noopener noreferrer">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/BlackSpirits/Blackspirits?style=flat&label=Stars&color=4C8F8B&logo=github" /></a>
 
-  <a href="https://github.com/BlackSpirits/UserScripts-UserStyles" target="_blank" rel="noopener noreferrer">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/BlackSpirits/UserScripts-UserStyles?style=flat&label=Last%20Update&color=4C8F8B&logo=github" /></a>
+  <a href="https://github.com/BlackSpirits/Blackspirits" target="_blank" rel="noopener noreferrer">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/BlackSpirits/Blackspirits?style=flat&label=Last%20Update&color=4C8F8B&logo=github" /></a>
 
   <a href="https://github.com/BlackSpirits" target="_blank" rel="noopener noreferrer">
     <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-F2CDCD?style=flat&logo=githubsponsors&logoColor=e31b23&labelColor=E6E9EF" /></a>
