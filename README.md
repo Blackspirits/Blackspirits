@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/BlackSpirits?tab=followers" rel="noopener">
+  <a href="https://github.com/BlackSpirits?tab=followers" target="_blank" rel="noopener noreferrer">
     <picture>
       <source srcset="./assets/profile-hero.webp" type="image/webp" />
       <img src="./assets/profile-hero.svg" alt="BlackSpirits — Profile banner">
@@ -11,7 +11,7 @@
 <p align="center">
   <img alt="Profile Visits" src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=4C8F8B&abbreviated=true&style=flat" />
 
-  <a href="https://github.com/Blackspirits?tab=followers" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/BlackSpirits?tab=followers" target="_blank" rel="noopener noreferrer">
     <img alt="GitHub Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat&color=4C8F8B&logo=github" /></a>
 
   <a href="https://github.com/BlackSpirits/UserScripts-UserStyles" target="_blank" rel="noopener noreferrer">
@@ -26,13 +26,13 @@
   <a href="mailto:blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
     <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat&labelColor=E6E9EF&logo=gmail&logoColor=1F2937" /></a>
   
-  <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00">
+  <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00" target="_blank" rel="noopener noreferrer">
     <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635bff?style=flat&labelColor=E6E9EF&logo=stripe&logoColor=1F2937"></a>
   
-  <a href="https://www.paypal.com/paypalme/filipemota">
+  <a href="https://www.paypal.com/paypalme/filipemota" target="_blank" rel="noopener noreferrer">
     <img alt="PayPal" src="https://img.shields.io/badge/PayPal-003087?style=flat&labelColor=E6E9EF&logo=paypal&logoColor=1F2937" /></a>
   
-  <a href="https://ko-fi.com/blackspirits">
+  <a href="https://ko-fi.com/blackspirits" target="_blank" rel="noopener noreferrer">
     <img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&labelColor=E6E9EF&logo=ko-fi&logoColor=1F2937"></a>
 
   <a href="https://buymeacoffee.com/blackspirits28" target="_blank" rel="noopener noreferrer">
@@ -62,7 +62,7 @@
 A collection of userscripts and userstyles created and maintained by me, shared with the open-source community, and focused on automation, media workflows, UX improvements, and productivity.
 
 <p align="center">
-  <a href="https://github.com/BlackSpirits/UserScripts-UserStyles">
+  <a href="https://github.com/BlackSpirits/UserScripts-UserStyles" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Featured%20Repo-UserScripts%20%26%20UserStyles-4C8F8B?style=flat&logo=github" />
   </a>
 </p>
@@ -104,7 +104,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=BlackSpirits&show_icons=true&include_all_commits=true&theme=radical" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=BlackSpirits&show_icons=true&include_all_commits=true&theme=radical" alt="GitHub Stats" />
 </p>
 
 <p align="center">
@@ -118,7 +118,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 
 ## 📈 GitHub Activity
 
-[![BlackSpirits Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Blackspirits&theme=redical&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![BlackSpirits Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=BlackSpirits&theme=redical&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
   <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
@@ -129,13 +129,13 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 
 <div align="center">
   <p><em>Stay creative. Keep coding.</em></p>
-  <a href="https://ko-fi.com/blackspirits" target="_blank">
+  <a href="https://ko-fi.com/blackspirits" target="_blank" rel="noopener noreferrer">
     <img src="https://media3.giphy.com/media/ZEB6yFbLnhyQf7g3hn/giphy.gif" alt="Support on Ko-fi" width="150"/>
   </a>
   
   <br/><br/>
   
-  <a href="https://open.spotify.com/user/11175393066">
+  <a href="https://open.spotify.com/user/11175393066" target="_blank" rel="noopener noreferrer">
     <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=11175393066&cover_image=true&theme=default&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" />
   </a>
 </div>
