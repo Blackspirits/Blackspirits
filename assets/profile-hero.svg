@@ -31,7 +31,7 @@
       .pill{font:800 16px/1 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif}
       .cta{font:900 24px/1 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif;letter-spacing:.2px}
       .handle{font:600 14px/1 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif;fill:#7f849c}
-      .meta{font:700 18px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#6c7086;opacity:.75}
+      .meta{font:700 18px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#9399b2}
     </style>
   </defs>
 
@@ -88,14 +88,14 @@
         <!-- gradient star perfectly centered between phrases -->
         <g transform="translate(277,22)">
           <!-- classic 5-point star path, scaled to ~20px -->
-          <g transform="translate(-32,-21) scale(1.0)">
+          <g transform="translate(-32,-21)">
             <path d="M32 33l-9.4 5 1.8-10.6-7.7-7.5 10.7-1.6L32 9l4.7 9.3 10.7 1.6-7.7 7.5 1.8 10.6z" fill="url(#ring)"/>
           </g>
         </g>
       </g>
     </a>
 
-    <!-- meta lines -->
+    <!-- meta lines — offset left to visually center against asymmetric rings on the right -->
     <g class="meta" text-anchor="middle" transform="translate(-200,0)">
       <text x="600" y="300">C++  •  C#  •  Python  •  TypeScript  •  Automation</text>
       
