@@ -1,0 +1,15 @@
+{
+  "retryOn429": true,
+  "retryCount": 3,
+  "timeout": "15s",
+  "ignorePatterns": [
+    { "pattern": "^https://komarev\\.com" },
+    { "pattern": "^https://img\\.shields\\.io" },
+    { "pattern": "^https://github-readme-stats" },
+    { "pattern": "^https://github-readme-activity-graph" },
+    { "pattern": "^https://spotify-github-profile" },
+    { "pattern": "^https://media[0-9]+\\.giphy\\.com" },
+    { "pattern": "^https://flagcdn\\.com" }
+  ],
+  "aliveStatusCodes": [200, 206, 301, 302, 403]
+}
