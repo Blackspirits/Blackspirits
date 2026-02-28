@@ -14,11 +14,11 @@
   <a href="https://github.com/BlackSpirits?tab=followers" target="_blank" rel="noopener noreferrer">
     <img alt="GitHub Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat&color=4C8F8B&logo=github" /></a>
 
-  <a href="https://github.com/BlackSpirits/Blackspirits" target="_blank" rel="noopener noreferrer">
-    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/BlackSpirits/Blackspirits?style=flat&label=Stars&color=4C8F8B&logo=github" /></a>
+  <a href="https://github.com/BlackSpirits/BlackSpirits" target="_blank" rel="noopener noreferrer">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/BlackSpirits/BlackSpirits?style=flat&label=Stars&color=4C8F8B&logo=github" /></a>
 
-  <a href="https://github.com/BlackSpirits/Blackspirits" target="_blank" rel="noopener noreferrer">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/BlackSpirits/Blackspirits?style=flat&label=Last%20Update&color=4C8F8B&logo=github" /></a>
+  <a href="https://github.com/BlackSpirits/BlackSpirits" target="_blank" rel="noopener noreferrer">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/BlackSpirits/BlackSpirits?style=flat&label=Last%20Update&color=4C8F8B&logo=github" /></a>
 
   <a href="https://github.com/BlackSpirits" target="_blank" rel="noopener noreferrer">
     <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-F2CDCD?style=flat&logo=githubsponsors&logoColor=e31b23&labelColor=E6E9EF" /></a>
@@ -68,7 +68,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 </p>
 
 <div align="center">
-  <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
+  <img src="./assets/blue-hr.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -79,7 +79,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 - 🗣️ Currently learning Korean — <img src="https://flagcdn.com/w40/kr.png" width="20" alt="South Korea Flag" /> 한글 배우는 중!
 
 <div align="center">
-  <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
+  <img src="./assets/blue-hr.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -97,7 +97,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 </p>
 
 <div align="center">
-  <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
+  <img src="./assets/blue-hr.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -112,7 +112,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 </p>
 
 <div align="center">
-  <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
+  <img src="./assets/blue-hr.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -121,7 +121,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 [![BlackSpirits Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=BlackSpirits&theme=redical&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
-  <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
+  <img src="./assets/blue-hr.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -141,7 +141,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 </div>
 
 <div align="center">
-  <img src="https://github.com/BlackSpirits/BlackSpirits/blob/main/assets/blue-hr.png"
+  <img src="./assets/blue-hr.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
