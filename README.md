@@ -9,37 +9,37 @@
 <h3 align="center">Born to explore. Coded to connect. 🌍</h3>
 
 <p align="center">
-  <img alt="Profile Visits" src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=4C8F8B&abbreviated=true&style=flat" />
+  <img alt="Profile Visits" src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=4C8F8B&abbreviated=true&style=flat-square" />
 
   <a href="https://github.com/BlackSpirits?tab=followers" target="_blank" rel="noopener noreferrer">
-    <img alt="GitHub Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat&color=4C8F8B&logo=github" /></a>
+    <img alt="GitHub Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat-square&color=4C8F8B&logo=github" /></a>
 
   <a href="https://github.com/BlackSpirits/BlackSpirits" target="_blank" rel="noopener noreferrer">
-    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/BlackSpirits/BlackSpirits?style=flat&label=Stars&color=4C8F8B&logo=github" /></a>
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/BlackSpirits/BlackSpirits?style=flat-square&label=Stars&color=4C8F8B&logo=github" /></a>
 
   <a href="https://github.com/BlackSpirits/BlackSpirits" target="_blank" rel="noopener noreferrer">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/BlackSpirits/BlackSpirits?style=flat&label=Last%20Update&color=4C8F8B&logo=github" /></a>
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/BlackSpirits/BlackSpirits?style=flat-square&label=Last%20Update&color=4C8F8B&logo=github" /></a>
 
   <a href="https://github.com/BlackSpirits" target="_blank" rel="noopener noreferrer">
-    <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-F2CDCD?style=flat&logo=githubsponsors&logoColor=e31b23&labelColor=E6E9EF" /></a>
+    <img alt="Open Source Love" src="https://img.shields.io/badge/Open%20Source-F2CDCD?style=flat-square&logo=githubsponsors&logoColor=e31b23&labelColor=E6E9EF" /></a>
 
   <a href="mailto:blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat&labelColor=E6E9EF&logo=gmail&logoColor=1F2937" /></a>
+    <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat-square&labelColor=E6E9EF&logo=gmail&logoColor=1F2937" /></a>
   
   <a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00" target="_blank" rel="noopener noreferrer">
-    <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635bff?style=flat&labelColor=E6E9EF&logo=stripe&logoColor=1F2937"></a>
+    <img alt="Stripe" src="https://img.shields.io/badge/Stripe-635bff?style=flat-square&labelColor=E6E9EF&logo=stripe&logoColor=1F2937"></a>
   
   <a href="https://www.paypal.com/paypalme/filipemota" target="_blank" rel="noopener noreferrer">
-    <img alt="PayPal" src="https://img.shields.io/badge/PayPal-003087?style=flat&labelColor=E6E9EF&logo=paypal&logoColor=1F2937" /></a>
+    <img alt="PayPal" src="https://img.shields.io/badge/PayPal-003087?style=flat-square&labelColor=E6E9EF&logo=paypal&logoColor=1F2937" /></a>
   
   <a href="https://ko-fi.com/blackspirits" target="_blank" rel="noopener noreferrer">
-    <img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat&labelColor=E6E9EF&logo=ko-fi&logoColor=1F2937"></a>
+    <img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=flat-square&labelColor=E6E9EF&logo=ko-fi&logoColor=1F2937"></a>
 
   <a href="https://buymeacoffee.com/blackspirits28" target="_blank" rel="noopener noreferrer">
-    <img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-F5E27A?style=flat&logo=buymeacoffee&logoColor=1F2937&labelColor=E6E9EF" /></a>
+    <img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-F5E27A?style=flat-square&logo=buymeacoffee&logoColor=1F2937&labelColor=E6E9EF" /></a>
 </p>
 
-## 👨‍💻 About Me
+## 🧑‍💻 About Me
 
 🎯 💻 Programmer, technology enthusiast and open-source contributor  
 📝 Translator and reviewer for several projects in European Portuguese (pt-PT)  
@@ -51,10 +51,12 @@
 
 ## 🛠️ Core Focus
 
-- Automation & Scripting
-- Media Platforms & Metadata
-- European Portuguese Localization (pt-PT)
-- Open-Source Tooling & Community Platforms
+<p align="center">
+  <img src="https://img.shields.io/badge/Automation%20%26%20Scripting-181825?style=flat-square&logo=gnubash&logoColor=a6e3a1" alt="Automation & Scripting" />
+  <img src="https://img.shields.io/badge/Media%20Platforms%20%26%20Metadata-181825?style=flat-square&logo=themoviedatabase&logoColor=89b4fa" alt="Media Platforms & Metadata" />
+  <img src="https://img.shields.io/badge/Localization%20(pt--PT)-181825?style=flat-square&logo=googletranslate&logoColor=fab387" alt="European Portuguese Localization" />
+  <img src="https://img.shields.io/badge/Open--Source%20Tooling-181825?style=flat-square&logo=opensourceinitiative&logoColor=cba6f7" alt="Open-Source Tooling" />
+</p>
 
 ## 🧩 Featured Projects
 
@@ -63,7 +65,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 
 <p align="center">
   <a href="https://github.com/BlackSpirits/UserScripts-UserStyles" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Featured%20Repo-UserScripts%20%26%20UserStyles-4C8F8B?style=flat&logo=github" />
+    <img src="https://img.shields.io/badge/Featured%20Repo-UserScripts%20%26%20UserStyles-4C8F8B?style=for-the-badge&logo=github" />
   </a>
 </p>
 
@@ -72,7 +74,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
-## 🤔 Did you know?
+## 💡 Did you know?
 - 🎬 I watch over 100 movies and TV series every year — from timeless classics to fresh releases
 - 💻 I love tweaking code for fun
 - 🌍 I'm obsessed with perfect localization (pt-PT ❤️)
@@ -92,7 +94,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 
 <p align="center">
   <a href="https://simkl.com/598901/dashboard/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/View%20on%20Simkl-6272A4?style=flat&logo=simkl" alt="View on Simkl" />
+    <img src="https://img.shields.io/badge/View%20on%20Simkl-6272A4?style=flat-square&logo=simkl" alt="View on Simkl" />
   </a>
 </p>
 
