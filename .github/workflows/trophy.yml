@@ -26,7 +26,7 @@ jobs:
         run: |
           mkdir -p assets/generated
           curl --fail --silent --show-error --location \
-            "https://trophy.ryglcloud.net/?username=BlackSpirits&theme=radical&no-frame=true&column=7&margin-w=8&margin-h=8" \
+            "https://trophy.ryglcloud.net/?username=BlackSpirits&theme=dracula&no-frame=true&column=7&margin-w=8&margin-h=8" \
             -o assets/generated/trophy-card.svg
 
           test -s assets/generated/trophy-card.svg
@@ -55,4 +55,5 @@ jobs:
 
           git pull --rebase origin main
           git push origin HEAD:main
+
 
