@@ -1,8 +1,186 @@
-<svg width="900" height="80" viewBox="0 0 900 80"
-  xmlns="http://www.w3.org/2000/svg" role="img"
-  aria-label="Recently watched — unavailable">
-  <rect width="900" height="80" rx="12" fill="#181825"/>
-  <text x="450" y="46" text-anchor="middle"
-        font-family="system-ui,-apple-system,sans-serif"
-        font-size="14" fill="#45475a">No recent history available</text>
+<!-- assets/generated/recently-watched.svg — auto-generated, do not edit -->
+<svg width="900" height="220" viewBox="0 0 900 220"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="BlackSpirits recently watched on Simkl">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#cba6f7"/>
+      <stop offset="50%" stop-color="#89b4fa"/>
+      <stop offset="100%" stop-color="#fab387"/>
+    </linearGradient>
+    <clipPath id="rc">
+      <rect width="900" height="220" rx="14" ry="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rc)">
+    <rect width="900" height="220" fill="#11111b"/>
+    
+  <!-- Card: No Tail to Tell -->
+  <g transform="translate(20,20)">
+    <rect width="278.6666666666667" height="84" rx="10" fill="#181825"/>
+    <rect width="3" height="84" rx="1.5" fill="#fab387" opacity=".7"/>
+
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="#fab387" opacity=".12"/>
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="none" stroke="#fab387" stroke-width=".6" opacity=".4"/>
+    <text x="38" y="23" text-anchor="middle"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" font-weight="700" fill="#fab387">📺 Show</text>
+
+    <text x="12" y="52"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="13" font-weight="700" fill="#cdd6f4">No Tail to Tell</text>
+
+    <text x="12" y="68"
+          font-family="'SFMono-Regular',Consolas,monospace"
+          font-size="11" fill="#585b70">2026</text>
+
+    <text x="268.6666666666667" y="68" text-anchor="end"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" fill="#45475a">today</text>
+
+    <rect width="278.6666666666667" height="84" rx="10" fill="none"
+          stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
+  </g>
+
+  <!-- Card: Unveil: Jadewind -->
+  <g transform="translate(310.6666666666667,20)">
+    <rect width="278.6666666666667" height="84" rx="10" fill="#181825"/>
+    <rect width="3" height="84" rx="1.5" fill="#fab387" opacity=".7"/>
+
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="#fab387" opacity=".12"/>
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="none" stroke="#fab387" stroke-width=".6" opacity=".4"/>
+    <text x="38" y="23" text-anchor="middle"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" font-weight="700" fill="#fab387">📺 Show</text>
+
+    <text x="12" y="52"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="13" font-weight="700" fill="#cdd6f4">Unveil: Jadewind</text>
+
+    <text x="12" y="68"
+          font-family="'SFMono-Regular',Consolas,monospace"
+          font-size="11" fill="#585b70">2026</text>
+
+    <text x="268.6666666666667" y="68" text-anchor="end"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" fill="#45475a">2d ago</text>
+
+    <rect width="278.6666666666667" height="84" rx="10" fill="none"
+          stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
+  </g>
+
+  <!-- Card: Undercover Miss Hong -->
+  <g transform="translate(601.3333333333334,20)">
+    <rect width="278.6666666666667" height="84" rx="10" fill="#181825"/>
+    <rect width="3" height="84" rx="1.5" fill="#fab387" opacity=".7"/>
+
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="#fab387" opacity=".12"/>
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="none" stroke="#fab387" stroke-width=".6" opacity=".4"/>
+    <text x="38" y="23" text-anchor="middle"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" font-weight="700" fill="#fab387">📺 Show</text>
+
+    <text x="12" y="52"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="13" font-weight="700" fill="#cdd6f4">Undercover Miss Hong</text>
+
+    <text x="12" y="68"
+          font-family="'SFMono-Regular',Consolas,monospace"
+          font-size="11" fill="#585b70">2026</text>
+
+    <text x="268.6666666666667" y="68" text-anchor="end"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" fill="#45475a">6d ago</text>
+
+    <rect width="278.6666666666667" height="84" rx="10" fill="none"
+          stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
+  </g>
+
+  <!-- Card: The Night Agent -->
+  <g transform="translate(20,116)">
+    <rect width="278.6666666666667" height="84" rx="10" fill="#181825"/>
+    <rect width="3" height="84" rx="1.5" fill="#fab387" opacity=".7"/>
+
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="#fab387" opacity=".12"/>
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="none" stroke="#fab387" stroke-width=".6" opacity=".4"/>
+    <text x="38" y="23" text-anchor="middle"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" font-weight="700" fill="#fab387">📺 Show</text>
+
+    <text x="12" y="52"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="13" font-weight="700" fill="#cdd6f4">The Night Agent</text>
+
+    <text x="12" y="68"
+          font-family="'SFMono-Regular',Consolas,monospace"
+          font-size="11" fill="#585b70">2023</text>
+
+    <text x="268.6666666666667" y="68" text-anchor="end"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" fill="#45475a">1w ago</text>
+
+    <rect width="278.6666666666667" height="84" rx="10" fill="none"
+          stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
+  </g>
+
+  <!-- Card: The Wrecking Crew -->
+  <g transform="translate(310.6666666666667,116)">
+    <rect width="278.6666666666667" height="84" rx="10" fill="#181825"/>
+    <rect width="3" height="84" rx="1.5" fill="#89b4fa" opacity=".7"/>
+
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="#89b4fa" opacity=".12"/>
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="none" stroke="#89b4fa" stroke-width=".6" opacity=".4"/>
+    <text x="38" y="23" text-anchor="middle"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" font-weight="700" fill="#89b4fa">🎬 Movie</text>
+
+    <text x="12" y="52"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="13" font-weight="700" fill="#cdd6f4">The Wrecking Crew</text>
+
+    <text x="12" y="68"
+          font-family="'SFMono-Regular',Consolas,monospace"
+          font-size="11" fill="#585b70">2026</text>
+
+    <text x="268.6666666666667" y="68" text-anchor="end"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" fill="#45475a">1w ago</text>
+
+    <rect width="278.6666666666667" height="84" rx="10" fill="none"
+          stroke="#89b4fa" stroke-width=".6" stroke-opacity=".18"/>
+  </g>
+
+  <!-- Card: Spring Fever -->
+  <g transform="translate(601.3333333333334,116)">
+    <rect width="278.6666666666667" height="84" rx="10" fill="#181825"/>
+    <rect width="3" height="84" rx="1.5" fill="#fab387" opacity=".7"/>
+
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="#fab387" opacity=".12"/>
+    <rect x="12" y="10" width="52" height="18" rx="6" fill="none" stroke="#fab387" stroke-width=".6" opacity=".4"/>
+    <text x="38" y="23" text-anchor="middle"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" font-weight="700" fill="#fab387">📺 Show</text>
+
+    <text x="12" y="52"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="13" font-weight="700" fill="#cdd6f4">Spring Fever</text>
+
+    <text x="12" y="68"
+          font-family="'SFMono-Regular',Consolas,monospace"
+          font-size="11" fill="#585b70">2026</text>
+
+    <text x="268.6666666666667" y="68" text-anchor="end"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="10" fill="#45475a">1w ago</text>
+
+    <rect width="278.6666666666667" height="84" rx="10" fill="none"
+          stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
+  </g>
+  </g>
+
+  <rect x=".5" y=".5" width="899" height="219" rx="14" ry="14"
+        fill="none" stroke="#cdd6f4" stroke-opacity=".08" stroke-width="1"/>
+
+  <!-- generated: 2026-03-01T15:53:08.948Z -->
 </svg>
