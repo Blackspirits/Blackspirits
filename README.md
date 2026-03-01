@@ -141,11 +141,11 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=BlackSpirits&show_icons=true&include_all_commits=true&theme=radical&hide_border=true&bg_color=11111b&title_color=cba6f7&icon_color=89b4fa&text_color=cdd6f4&ring_color=fab387" alt="GitHub Stats" />
+  <img src="./assets/generated/stats.svg" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=BlackSpirits&layout=compact&theme=radical&hide_border=true&bg_color=11111b&title_color=cba6f7&text_color=cdd6f4" alt="Top Languages" />
+  <img src="./assets/generated/top-langs.svg" alt="Top Languages" />
 </p>
 
 <p align="center">
