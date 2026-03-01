@@ -27,17 +27,17 @@ jobs:
           mkdir -p assets/generated
           curl --fail --silent --show-error --location \
             "https://trophy.ryglcloud.net/?username=BlackSpirits&theme=radical&no-frame=true&column=7&margin-w=8&margin-h=8" \
-            -o assets/generated/trophy.svg
+            -o assets/generated/trophy-card.svg
 
-          test -s assets/generated/trophy.svg
-          grep -q "<svg" assets/generated/trophy.svg
+          test -s assets/generated/trophy-card.svg
+          grep -q "<svg" assets/generated/trophy-card.svg
 
       - name: Debug generated trophy
         run: |
           ls -lah assets/generated
-          file assets/generated/trophy.svg || true
-          wc -c assets/generated/trophy.svg || true
-          head -n 5 assets/generated/trophy.svg || true
+          file assets/generated/trophy-card.svg || true
+          wc -c assets/generated/trophy-card.svg || true
+          head -n 5 assets/generated/trophy-card.svg || true
 
       - name: Commit changes
         run: |
@@ -49,7 +49,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/generated/trophy.svg
+          git add assets/generated/trophy-card.svg
           git commit -m "chore(readme): update trophy card"
 
           git pull --rebase origin main
