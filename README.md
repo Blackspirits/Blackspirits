@@ -19,7 +19,7 @@
     <img alt="Last Update" src="https://img.shields.io/github/last-commit/BlackSpirits/BlackSpirits?style=flat-square&label=Last%20Update&color=4C8F8B&logo=github" /></a>
   &nbsp;
   <a href="https://blackspirits.github.io" target="_blank" rel="noopener noreferrer">
-    <img alt="Personal Site" src="https://img.shields.io/badge/Site-blackspirits.github.io-4C8F8B?style=flat-square&logo=githubpages&logoColor=white" /></a>
+  <img alt="Personal Site" src="https://img.shields.io/badge/Personal%20Site-blackspirits.github.io-4C8F8B?style=flat-square&logoColor=white&logoSize=auto" /></a>
   &nbsp;
   <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source%20❤️-181825?style=flat-square&logo=opensourceinitiative&logoColor=cba6f7" />
 </p>
@@ -81,13 +81,12 @@ A collection of userscripts and userstyles created and maintained by me — focu
   </a>
 </p>
 
-🎬 **Pipocas.tv**  
+<sub><img src="./assets/pipocas.png" alt="" width="16" /></sub> <strong>Pipocas.tv</strong><br/>
 Portuguese subtitles community platform — I develop, maintain, and moderate this community-driven project.
 
 <p align="center">
   <a href="https://pipocas.tv" target="_blank" rel="noopener noreferrer">
-    <img
-      src="https://img.shields.io/badge/Pipocas.tv-FBB150?style=for-the-badge&logoColor=212326&labelColor=FBB150" alt="Pipocas.tv" />
+    <img src="https://img.shields.io/badge/Pipocas.tv-FBB150?style=for-the-badge&color=FBB150" alt="Pipocas.tv" />
   </a>
 </p>
 
@@ -96,8 +95,7 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 
 <p align="center">
   <a href="https://www.thetvdb.com" target="_blank" rel="noopener noreferrer">
-    <img
-        src="https://img.shields.io/badge/TheTVDB-1B2626?style=for-the-badge&logo=thetvdb&logoColor=white&labelColor=1B2626" alt="TheTVDB" />
+    <img src="https://img.shields.io/badge/TheTVDB-1B2626?style=for-the-badge&logo=thetvdb&logoColor=6CD591" alt="TheTVDB" />
   </a>
 </p>
 
