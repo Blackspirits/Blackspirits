@@ -29,10 +29,10 @@ const C = {
   mantle: '#181825',
   surface: '#1e1e2e',
   overlay: '#313244',
-  muted: '#45475a',
-  subtle: '#585b70',
+  muted: '#7f849c',
+  subtle: '#9399b2',
   text: '#cdd6f4',
-  subtext: '#9399b2',
+  subtext: '#bac2de',
   lavender: '#b4befe',
   blue: '#89b4fa',
   purple: '#cba6f7',
@@ -205,11 +205,11 @@ function buildCard(item, col, row) {
 
     <text x="12" y="68"
           font-family="'SFMono-Regular',Consolas,monospace"
-          font-size="11" fill="${C.subtle}">${safeSubtitle}</text>
+          font-size="11" font-weight="600" fill="${C.subtext}">${safeSubtitle}</text>
 
     <text x="${CARD_W - 10}" y="68" text-anchor="end"
           font-family="system-ui,-apple-system,sans-serif"
-          font-size="10" fill="${C.muted}">${safeRelativeDate}</text>
+          font-size="10.5" font-weight="600" fill="${C.subtle}">${safeRelativeDate}</text>
 
     <rect width="${CARD_W}" height="${CARD_H}" rx="${RX}" fill="none"
           stroke="${ac}" stroke-width=".6" stroke-opacity=".18"/>
