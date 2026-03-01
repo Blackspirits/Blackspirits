@@ -151,7 +151,7 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 </p>
 
 <p align="center">
-  <img src="./assets/generated/trophy.svg" alt="GitHub Trophies" />
+  <img src="./assets/generated/trophy-card.svg" alt="GitHub Trophies" />
 </p>
 
 <div align="center">
