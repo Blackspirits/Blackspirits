@@ -1,0 +1,72 @@
+<!-- assets/generated/recently-watched.svg — placeholder (replaced automatically by GitHub Actions) -->
+<svg width="900" height="220" viewBox="0 0 900 220"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Recently watched — loading">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#cba6f7"/>
+      <stop offset="50%"  stop-color="#89b4fa"/>
+      <stop offset="100%" stop-color="#fab387"/>
+    </linearGradient>
+    <clipPath id="rc">
+      <rect width="900" height="220" rx="14" ry="14"/>
+    </clipPath>
+    <style>
+      @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:.8} }
+      .p { animation: pulse 2s ease-in-out infinite }
+    </style>
+  </defs>
+
+  <g clip-path="url(#rc)">
+    <rect width="900" height="220" fill="#11111b"/>
+
+    <!-- placeholder skeleton cards -->
+    <g fill="#181825">
+      <!-- row 1 -->
+      <rect x="20"  y="20" width="276" height="86" rx="10"/>
+      <rect x="312" y="20" width="276" height="86" rx="10"/>
+      <rect x="604" y="20" width="276" height="86" rx="10"/>
+      <!-- row 2 -->
+      <rect x="20"  y="114" width="276" height="86" rx="10"/>
+      <rect x="312" y="114" width="276" height="86" rx="10"/>
+      <rect x="604" y="114" width="276" height="86" rx="10"/>
+    </g>
+
+    <!-- pulsing overlay -->
+    <g class="p" fill="#313244" opacity=".5">
+      <rect x="32"  y="32" width="52" height="18" rx="6"/>
+      <rect x="32"  y="60" width="160" height="14" rx="4"/>
+      <rect x="32"  y="78" width="80"  height="10" rx="3"/>
+
+      <rect x="324" y="32" width="52" height="18" rx="6"/>
+      <rect x="324" y="60" width="140" height="14" rx="4"/>
+      <rect x="324" y="78" width="80"  height="10" rx="3"/>
+
+      <rect x="616" y="32" width="52" height="18" rx="6"/>
+      <rect x="616" y="60" width="150" height="14" rx="4"/>
+      <rect x="616" y="78" width="80"  height="10" rx="3"/>
+
+      <rect x="32"  y="126" width="52" height="18" rx="6"/>
+      <rect x="32"  y="154" width="130" height="14" rx="4"/>
+      <rect x="32"  y="172" width="80"  height="10" rx="3"/>
+
+      <rect x="324" y="126" width="52" height="18" rx="6"/>
+      <rect x="324" y="154" width="160" height="14" rx="4"/>
+      <rect x="324" y="172" width="80"  height="10" rx="3"/>
+
+      <rect x="616" y="126" width="52" height="18" rx="6"/>
+      <rect x="616" y="154" width="120" height="14" rx="4"/>
+      <rect x="616" y="172" width="80"  height="10" rx="3"/>
+    </g>
+
+    <!-- center message -->
+    <text x="450" y="115" text-anchor="middle"
+          font-family="system-ui,-apple-system,sans-serif"
+          font-size="13" fill="#585b70">
+      ⏳ Will be populated on first Action run
+    </text>
+  </g>
+
+  <rect x=".5" y=".5" width="899" height="219" rx="14" ry="14"
+        fill="none" stroke="#cdd6f4" stroke-opacity=".08" stroke-width="1"/>
+</svg>
