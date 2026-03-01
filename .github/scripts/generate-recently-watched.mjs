@@ -123,9 +123,15 @@ async function simklGet(path) {
 /** Fetch last N items from full history (movies + shows) */
 async function fetchHistory() {
   const [moviesRaw, showsRaw] = await Promise.all([
-    simklGet('/sync/history/movies'),
-    simklGet('/sync/history/shows'),
+  simklGet('/sync/history/movies'),
+  simklGet('/sync/history/shows'),
   ])
+  
+  console.log('RAW movies payload:')
+  console.log(JSON.stringify(moviesRaw, null, 2).slice(0, 4000))
+  
+  console.log('RAW shows payload:')
+  console.log(JSON.stringify(showsRaw, null, 2).slice(0, 4000))
 
   const movies = asArray(moviesRaw, ['movies', 'items', 'history'])
   const shows = asArray(showsRaw, ['shows', 'items', 'history'])
