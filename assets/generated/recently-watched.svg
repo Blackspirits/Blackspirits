@@ -33,11 +33,11 @@
 
     <text x="12" y="68"
           font-family="'SFMono-Regular',Consolas,monospace"
-          font-size="11" fill="#585b70">2026</text>
+          font-size="11" font-weight="600" fill="#bac2de">2026</text>
 
     <text x="268.6666666666667" y="68" text-anchor="end"
           font-family="system-ui,-apple-system,sans-serif"
-          font-size="10" fill="#45475a">today</text>
+          font-size="10.5" font-weight="600" fill="#9399b2">today</text>
 
     <rect width="278.6666666666667" height="84" rx="10" fill="none"
           stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
@@ -60,11 +60,11 @@
 
     <text x="12" y="68"
           font-family="'SFMono-Regular',Consolas,monospace"
-          font-size="11" fill="#585b70">2026</text>
+          font-size="11" font-weight="600" fill="#bac2de">2026</text>
 
     <text x="268.6666666666667" y="68" text-anchor="end"
           font-family="system-ui,-apple-system,sans-serif"
-          font-size="10" fill="#45475a">2d ago</text>
+          font-size="10.5" font-weight="600" fill="#9399b2">2d ago</text>
 
     <rect width="278.6666666666667" height="84" rx="10" fill="none"
           stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
@@ -87,11 +87,11 @@
 
     <text x="12" y="68"
           font-family="'SFMono-Regular',Consolas,monospace"
-          font-size="11" fill="#585b70">2026</text>
+          font-size="11" font-weight="600" fill="#bac2de">2026</text>
 
     <text x="268.6666666666667" y="68" text-anchor="end"
           font-family="system-ui,-apple-system,sans-serif"
-          font-size="10" fill="#45475a">6d ago</text>
+          font-size="10.5" font-weight="600" fill="#9399b2">6d ago</text>
 
     <rect width="278.6666666666667" height="84" rx="10" fill="none"
           stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
@@ -114,11 +114,11 @@
 
     <text x="12" y="68"
           font-family="'SFMono-Regular',Consolas,monospace"
-          font-size="11" fill="#585b70">2023</text>
+          font-size="11" font-weight="600" fill="#bac2de">2023</text>
 
     <text x="268.6666666666667" y="68" text-anchor="end"
           font-family="system-ui,-apple-system,sans-serif"
-          font-size="10" fill="#45475a">1w ago</text>
+          font-size="10.5" font-weight="600" fill="#9399b2">1w ago</text>
 
     <rect width="278.6666666666667" height="84" rx="10" fill="none"
           stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
@@ -141,11 +141,11 @@
 
     <text x="12" y="68"
           font-family="'SFMono-Regular',Consolas,monospace"
-          font-size="11" fill="#585b70">2026</text>
+          font-size="11" font-weight="600" fill="#bac2de">2026</text>
 
     <text x="268.6666666666667" y="68" text-anchor="end"
           font-family="system-ui,-apple-system,sans-serif"
-          font-size="10" fill="#45475a">1w ago</text>
+          font-size="10.5" font-weight="600" fill="#9399b2">1w ago</text>
 
     <rect width="278.6666666666667" height="84" rx="10" fill="none"
           stroke="#89b4fa" stroke-width=".6" stroke-opacity=".18"/>
@@ -168,11 +168,11 @@
 
     <text x="12" y="68"
           font-family="'SFMono-Regular',Consolas,monospace"
-          font-size="11" fill="#585b70">2026</text>
+          font-size="11" font-weight="600" fill="#bac2de">2026</text>
 
     <text x="268.6666666666667" y="68" text-anchor="end"
           font-family="system-ui,-apple-system,sans-serif"
-          font-size="10" fill="#45475a">1w ago</text>
+          font-size="10.5" font-weight="600" fill="#9399b2">1w ago</text>
 
     <rect width="278.6666666666667" height="84" rx="10" fill="none"
           stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
@@ -182,5 +182,5 @@
   <rect x=".5" y=".5" width="899" height="219" rx="14" ry="14"
         fill="none" stroke="#cdd6f4" stroke-opacity=".08" stroke-width="1"/>
 
-  <!-- generated: 2026-03-01T15:53:08.948Z -->
+  <!-- generated: 2026-03-01T16:04:47.274Z -->
 </svg>
