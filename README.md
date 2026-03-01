@@ -151,6 +151,15 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 </p>
 
 <p align="center">
+  <a href="https://git.io/streak-stats">
+    <img
+      src="https://streak-stats.demolab.com?user=BlackSpirits&theme=catppuccin-mocha&hide_border=true&background=1e1e2e&stroke=313244&ring=fab387&fire=fab387&currStreakNum=cdd6f4&sideNums=cdd6f4&currStreakLabel=cba6f7&sideLabels=bac2de&dates=9399b2&date_format=j%20M%5B%20Y%5D"
+      alt="GitHub Streak"
+    />
+  </a>
+</p>
+
+<p align="center">
   <img src="./assets/generated/trophy-card.svg" alt="GitHub Trophies" />
 </p>
 
@@ -160,7 +169,7 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 
 ## 📈 GitHub Activity
 
-[![BlackSpirits GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=BlackSpirits&theme=dracula&area=true&hide_border=true&bg_color=11111b&color=cba6f7&line=89b4fa&point=fab387)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![BlackSpirits GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=BlackSpirits&bg_color=1e1e2e&border_color=313244&color=cdd6f4&title_color=cba6f7&line=89b4fa&point=fab387&area=true&area_color=89b4fa&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
   <img src="./assets/divider.svg" alt="" aria-hidden="true" loading="lazy" />
