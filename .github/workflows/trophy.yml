@@ -32,6 +32,13 @@ jobs:
           test -s assets/generated/trophy.svg
           grep -q "<svg" assets/generated/trophy.svg
 
+      - name: Debug generated trophy
+        run: |
+          ls -lah assets/generated
+          file assets/generated/trophy.svg || true
+          wc -c assets/generated/trophy.svg || true
+          head -n 5 assets/generated/trophy.svg || true
+
       - name: Commit changes
         run: |
           if git diff --quiet; then
