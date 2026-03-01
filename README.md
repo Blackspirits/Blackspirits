@@ -153,7 +153,7 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 <p align="center">
   <a href="https://git.io/streak-stats">
     <img
-      src="https://streak-stats.demolab.com?user=BlackSpirits&theme=catppuccin-mocha&hide_border=true&background=1e1e2e&stroke=313244&ring=fab387&fire=fab387&currStreakNum=cdd6f4&sideNums=cdd6f4&currStreakLabel=cba6f7&sideLabels=bac2de&dates=9399b2&date_format=j%20M%5B%20Y%5D"
+      src="https://streak-stats.demolab.com?user=BlackSpirits&theme=catppuccin-mocha&background=1e1e2e&stroke=313244&ring=fab387&fire=fab387&currStreakNum=cdd6f4&sideNums=cdd6f4&currStreakLabel=cba6f7&sideLabels=bac2de&dates=9399b2&date_format=j%20M%5B%20Y%5D"
       alt="GitHub Streak"
     />
   </a>
