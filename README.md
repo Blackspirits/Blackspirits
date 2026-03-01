@@ -160,7 +160,7 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 
 ## 📈 GitHub Activity
 
-[![BlackSpirits GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=BlackSpirits&theme=redical&area=true&hide_border=true&bg_color=11111b&color=cba6f7&line=89b4fa&point=fab387)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![BlackSpirits GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=BlackSpirits&theme=dracula&area=true&hide_border=true&bg_color=11111b&color=cba6f7&line=89b4fa&point=fab387)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
   <img src="./assets/divider.svg" alt="" aria-hidden="true" loading="lazy" />
