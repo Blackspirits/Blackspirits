@@ -117,11 +117,13 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 
 <p align="center">
   <a href="https://simkl.com/598901/dashboard/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Full%20History%20on%20Simkl-0B0F10?style=flat-square&logo=simkl&logoColor=white" alt="View full history on Simkl" />
+    <img src="https://img.shields.io/badge/Full%20History%20on%20Simkl-0B0F10?style=for-the-badge&logo=simkl&logoColor=white" alt="View full history on Simkl" />
   </a>
 </p>
 
-> Auto-updated daily via GitHub Actions · [workflow](./.github/workflows/simkl-recently-watched.yml)
+<p align="center">
+  <sub>Auto-updated daily via GitHub Actions · <a href="./.github/workflows/simkl-recently-watched.yml">workflow</a></sub>
+</p>
 
 <div align="center">
   <img src="./assets/divider.svg" alt="" aria-hidden="true" loading="lazy" />
