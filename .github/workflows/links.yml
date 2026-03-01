@@ -3,10 +3,10 @@ name: Check Links
 on:
   push:
     branches: [main]
-    paths: ['**.md']
+    paths: ['**/*.md']
   pull_request:
     branches: [main]
-    paths: ['**.md']
+    paths: ['**/*.md']
   schedule:
     - cron: '0 9 * * 1' # Every Monday at 09:00 UTC
 
