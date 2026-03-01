@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <p align="center">
   <picture>
     <source srcset="./assets/profile-hero.svg" type="image/svg+xml" />
@@ -71,7 +73,7 @@
   <img src="./assets/divider.svg" alt="" aria-hidden="true" loading="lazy" />
 </div>
 
-## 🧩 Featured Projects
+## 🧩 Featured Projects & Contributions
 
 🧠 **UserScripts & UserStyles**  
 A collection of userscripts and userstyles created and maintained by me — focused on automation, media workflows, UX improvements, and productivity.
@@ -87,7 +89,8 @@ Portuguese subtitles community platform — I develop, maintain, and moderate th
 
 <p align="center">
   <a href="https://pipocas.tv" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Pipocas.tv-FF4500?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Pipocas.tv" />
+    <img
+      src="https://img.shields.io/badge/Pipocas.tv-FBB150?style=for-the-badge&logoColor=212326&labelColor=FBB150" alt="Pipocas.tv" />
   </a>
 </p>
 
@@ -96,7 +99,8 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 
 <p align="center">
   <a href="https://www.thetvdb.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/TheTVDB-6D4C9F?style=for-the-badge&logo=thetvdb&logoColor=white" alt="TheTVDB" />
+    <img
+        src="https://img.shields.io/badge/TheTVDB-1B2626?style=for-the-badge&logo=thetvdb&logoColor=white&labelColor=1B2626" alt="TheTVDB" />
   </a>
 </p>
 
@@ -207,4 +211,4 @@ If you find my work useful, a coffee goes a long way ☕
   Thanks for visiting! Feel free to explore, contribute — or just say hi 👋
 </p>
 
-<p align="right"><a href="#readme">↑ Back to top</a></p>
+<p align="right"><a href="#top">↑ Back to top</a></p>
