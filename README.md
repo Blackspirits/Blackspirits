@@ -70,7 +70,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 </p>
 
 <div align="center">
-  <img src="./assets/blue-hr.svg"
+  <img src="./assets/divider.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -81,7 +81,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 - 🗣️ Currently learning Korean — <img src="https://flagcdn.com/w40/kr.png" width="20" alt="South Korea Flag" /> 한글 배우는 중!
 
 <div align="center">
-  <img src="./assets/blue-hr.svg"
+  <img src="./assets/divider.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -99,7 +99,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 </p>
 
 <div align="center">
-  <img src="./assets/blue-hr.svg"
+  <img src="./assets/divider.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -114,7 +114,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 </p>
 
 <div align="center">
-  <img src="./assets/blue-hr.svg"
+  <img src="./assets/divider.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -123,7 +123,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 [![BlackSpirits Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=BlackSpirits&theme=redical&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
-  <img src="./assets/blue-hr.svg"
+  <img src="./assets/divider.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
@@ -143,7 +143,7 @@ A collection of userscripts and userstyles created and maintained by me, shared 
 </div>
 
 <div align="center">
-  <img src="./assets/blue-hr.svg"
+  <img src="./assets/divider.svg"
        alt="" aria-hidden="true" loading="lazy">
 </div>
 
