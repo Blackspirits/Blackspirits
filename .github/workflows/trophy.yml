@@ -1,0 +1,36 @@
+name: Update Trophy
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  trophy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate trophy SVG
+        run: |
+          mkdir -p assets/generated
+          curl -L "https://trophy.ryglcloud.net/?username=BlackSpirits&theme=radical&no-frame=true&column=7&margin-w=8&margin-h=8" \
+            -o assets/generated/trophy.svg
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated/trophy.svg
+          git commit -m "chore(readme): update trophy card"
+          git push

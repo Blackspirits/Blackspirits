@@ -13,16 +13,13 @@
   <img alt="Profile Visits" src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=4C8F8B&abbreviated=true&style=flat-square" />
   &nbsp;
   <a href="https://github.com/BlackSpirits?tab=followers" target="_blank" rel="noopener noreferrer">
-    <img alt="Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat-square&color=4C8F8B&logo=github" />
-  </a>
+    <img alt="Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat-square&color=4C8F8B&logo=github" /></a>
   &nbsp;
   <a href="https://github.com/BlackSpirits/BlackSpirits" target="_blank" rel="noopener noreferrer">
-    <img alt="Last Update" src="https://img.shields.io/github/last-commit/BlackSpirits/BlackSpirits?style=flat-square&label=Last%20Update&color=4C8F8B&logo=github" />
-  </a>
+    <img alt="Last Update" src="https://img.shields.io/github/last-commit/BlackSpirits/BlackSpirits?style=flat-square&label=Last%20Update&color=4C8F8B&logo=github" /></a>
   &nbsp;
   <a href="https://blackspirits.github.io" target="_blank" rel="noopener noreferrer">
-    <img alt="Personal Site" src="https://img.shields.io/badge/Site-blackspirits.github.io-4C8F8B?style=flat-square&logo=githubpages&logoColor=white" />
-  </a>
+    <img alt="Personal Site" src="https://img.shields.io/badge/Site-blackspirits.github.io-4C8F8B?style=flat-square&logo=githubpages&logoColor=white" /></a>
   &nbsp;
   <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source%20❤️-181825?style=flat-square&logo=opensourceinitiative&logoColor=cba6f7" />
 </p>
@@ -154,7 +151,7 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=BlackSpirits&theme=radical&no-frame=true&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies" />
+  <img src="./assets/generated/trophy.svg" alt="GitHub Trophies" />
 </p>
 
 <div align="center">
@@ -186,20 +183,16 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 If you find my work useful, a coffee goes a long way ☕
 
 <a href="https://ko-fi.com/blackspirits" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi" />
-</a>
+  <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi" /></a>
 &nbsp;
 <a href="https://buymeacoffee.com/blackspirits28" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee" />
-</a>
+  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee" /></a>
 &nbsp;
 <a href="https://www.paypal.com/paypalme/filipemota" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" />
-</a>
+  <img src="https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" /></a>
 &nbsp;
 <a href="mailto:blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
