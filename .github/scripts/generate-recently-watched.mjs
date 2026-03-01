@@ -122,54 +122,44 @@ async function simklGet(path) {
 
 /** Fetch last N items from full history (movies + shows) */
 async function fetchHistory() {
-  const [moviesRaw, showsRaw] = await Promise.all([
-  simklGet('/sync/history/movies'),
-  simklGet('/sync/history/shows'),
-  ])
-  
-  console.log('RAW movies payload:')
-  console.log(JSON.stringify(moviesRaw, null, 2).slice(0, 4000))
-  
-  console.log('RAW shows payload:')
-  console.log(JSON.stringify(showsRaw, null, 2).slice(0, 4000))
+  const allRaw = await simklGet('/sync/all-items/')
 
-  const movies = asArray(moviesRaw, ['movies', 'items', 'history'])
-  const shows = asArray(showsRaw, ['shows', 'items', 'history'])
+  console.log('RAW all-items payload:')
+  console.log(JSON.stringify(allRaw, null, 2).slice(0, 4000))
 
-  console.log(`🎬 Movies payload: ${Array.isArray(moviesRaw) ? 'array' : typeof moviesRaw}, extracted ${movies.length} items`)
-  console.log(`📺 Shows payload: ${Array.isArray(showsRaw) ? 'array' : typeof showsRaw}, extracted ${shows.length} items`)
+  const movies = Array.isArray(allRaw?.movies) ? allRaw.movies : []
+  const shows  = Array.isArray(allRaw?.shows) ? allRaw.shows : []
+  const anime  = Array.isArray(allRaw?.anime) ? allRaw.anime : []
 
-  if (movies.length > 0) {
-    console.log('🎬 First movie sample keys:', Object.keys(movies[0] ?? {}).join(', '))
-  }
-  if (shows.length > 0) {
-    console.log('📺 First show sample keys:', Object.keys(shows[0] ?? {}).join(', '))
-  }
+  console.log(`🎬 Movies extracted: ${movies.length}`)
+  console.log(`📺 Shows extracted: ${shows.length}`)
+  console.log(`🌸 Anime extracted: ${anime.length}`)
 
-  const normalisedMovies = movies.map((m) => ({
-    type: 'movie',
-    title: m.movie?.title ?? m.title ?? 'Unknown',
-    year: m.movie?.year ?? m.year ?? '',
-    watchedAt: safeDateValue(m.watched_at ?? m.last_watched_at ?? m.last_watched),
-    simklId: m.movie?.ids?.simkl ?? m.ids?.simkl ?? null,
-  }))
+  const normalisedMovies = movies
+    .filter((m) => m.last_watched_at)
+    .map((m) => ({
+      type: 'movie',
+      title: m.movie?.title ?? 'Unknown',
+      year: m.movie?.year ?? '',
+      watchedAt: m.last_watched_at,
+      simklId: m.movie?.ids?.simkl ?? null,
+    }))
 
-  const normalisedShows = shows.map((s) => ({
-    type: 'show',
-    title: s.show?.title ?? s.title ?? 'Unknown',
-    year: s.show?.year ?? s.year ?? '',
-    watchedAt: safeDateValue(s.last_watched_at ?? s.watched_at ?? s.last_watched),
-    simklId: s.show?.ids?.simkl ?? s.ids?.simkl ?? null,
-    season: s.last_watched?.season ?? s.season ?? null,
-    episode: s.last_watched?.episode ?? s.episode ?? null,
-  }))
+  const normalisedShows = [...shows, ...anime]
+    .filter((s) => s.last_watched_at)
+    .map((s) => ({
+      type: 'show',
+      title: s.show?.title ?? 'Unknown',
+      year: s.show?.year ?? '',
+      watchedAt: s.last_watched_at,
+      simklId: s.show?.ids?.simkl ?? null,
+      season: null,
+      episode: null,
+    }))
 
-  const items = [...normalisedMovies, ...normalisedShows]
-    .filter((item) => item.watchedAt)
+  return [...normalisedMovies, ...normalisedShows]
     .sort((a, b) => new Date(b.watchedAt) - new Date(a.watchedAt))
     .slice(0, LIMIT)
-
-  return items
 }
 
 // ─── SVG layout constants ─────────────────────────────────────────────────────
