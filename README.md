@@ -3,28 +3,26 @@
 <p align="center">
   <picture>
     <source srcset="./assets/profile-hero.svg" type="image/svg+xml" />
-    <img src="./assets/profile-hero.webp" alt="BlackSpirits — Developer, translator &amp; open-source contributor from Portugal" />
+    <img src="./assets/profile-hero.webp" alt="BlackSpirits — Developer, translator &amp; open-source contributor from Portugal" width="100%" />
   </picture>
 </p>
 
 <h3 align="center">Born to explore. Coded to connect. 🌍</h3>
 
 <p align="center">
-  <img alt="Profile Visits" src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=4C8F8B&abbreviated=true&style=flat-square" />
-  &nbsp;
+  <img alt="Profile Visits" src="https://komarev.com/ghpvc/?username=blackspirits&label=Profile%20Visits&color=cba6f7&abbreviated=true&style=flat-square&labelColor=313244&logo=github&logoColor=cdd6f4" />
   <a href="https://github.com/BlackSpirits?tab=followers" target="_blank" rel="noopener noreferrer">
-    <img alt="Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat-square&color=4C8F8B&logo=github" /></a>
-  &nbsp;
+    <img alt="Followers" src="https://img.shields.io/github/followers/BlackSpirits?label=Followers&style=flat-square&labelColor=313244&color=f9e2af&logo=github&logoColor=cdd6f4" /></a>
   <a href="https://github.com/BlackSpirits/BlackSpirits" target="_blank" rel="noopener noreferrer">
-    <img alt="Last Update" src="https://img.shields.io/github/last-commit/BlackSpirits/BlackSpirits?style=flat-square&label=Last%20Update&color=4C8F8B&logo=github" /></a>
-  &nbsp;
+    <img alt="Last Update" src="https://img.shields.io/github/last-commit/BlackSpirits/BlackSpirits?style=flat-square&label=Last%20Update&labelColor=313244&color=94e2d5&logo=github&logoColor=cdd6f4" /></a>
   <a href="https://blackspirits.github.io" target="_blank" rel="noopener noreferrer">
-  <img alt="Personal Site" src="https://img.shields.io/badge/Personal%20Site-blackspirits.github.io-4C8F8B?style=flat-square&logoColor=white&logoSize=auto" /></a>
-  &nbsp;
-  <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source%20❤️-181825?style=flat-square&logo=opensourceinitiative&logoColor=cba6f7" />
+  <img alt="Personal Site" src="https://img.shields.io/badge/Personal%20Site-blackspirits.github.io-a6e3a1?style=flat-square&labelColor=313244&logoColor=cdd6f4" /></a>
+  <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4%EF%B8%8F-f2cdcd?style=flat-square&labelColor=313244&logo=opensourceinitiative&logoColor=cba6f7" />
 </p>
 
----
+<div align="center">
+  <img src="./assets/divider.svg" alt="" aria-hidden="true" loading="lazy" />
+</div>
 
 ## 🧑‍💻 Who I Am
 
@@ -61,10 +59,10 @@
 
 **Core Focus**
 
-![Automation](https://img.shields.io/badge/Automation%20%26%20Scripting-181825?style=flat-square&logo=gnubash&logoColor=a6e3a1)
-![Media Metadata](https://img.shields.io/badge/Media%20Platforms%20%26%20Metadata-181825?style=flat-square&logo=themoviedatabase&logoColor=89b4fa)
-![Localization](https://img.shields.io/badge/Localization%20pt--PT-181825?style=flat-square&logo=googletranslate&logoColor=fab387)
-![Open Source](https://img.shields.io/badge/Open--Source%20Tooling-181825?style=flat-square&logo=opensourceinitiative&logoColor=cba6f7)
+![Automation](https://img.shields.io/badge/Automation%20%26%20Scripting-313244?style=flat-square&logo=gnubash&logoColor=a6e3a1)
+![Media Metadata](https://img.shields.io/badge/Media%20Platforms%20%26%20Metadata-313244?style=flat-square&logo=themoviedatabase&logoColor=89b4fa)
+![Localization](https://img.shields.io/badge/Localization%20pt--PT-313244?style=flat-square&logo=googletranslate&logoColor=fab387)
+![Open Source](https://img.shields.io/badge/Open--Source%20Tooling-313244?style=flat-square&logo=opensourceinitiative&logoColor=cba6f7)
 
 <div align="center">
   <img src="./assets/divider.svg" alt="" aria-hidden="true" loading="lazy" />
@@ -77,7 +75,7 @@ A collection of userscripts and userstyles created and maintained by me — focu
 
 <p align="center">
   <a href="https://github.com/BlackSpirits/UserScripts-UserStyles" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/UserScripts%20%26%20UserStyles-4C8F8B?style=for-the-badge&logo=github&logoColor=white" alt="UserScripts & UserStyles repo" />
+    <img src="https://img.shields.io/badge/UserScripts%20%26%20UserStyles-cba6f7?style=for-the-badge&logo=github&logoColor=11111b" alt="UserScripts & UserStyles repo" />
   </a>
 </p>
 
@@ -191,15 +189,14 @@ Contributing as a moderator, helping maintain the accuracy and completeness of T
 
 If you find my work useful, a coffee goes a long way ☕
 
-<a href="https://ko-fi.com/blackspirits" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi" /></a>
-&nbsp;
-<a href="https://buymeacoffee.com/blackspirits28" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee" /></a>
-&nbsp;
+<a href="https://donate.stripe.com/00w14peB0gBx1tBeOz3Nm00" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Stripe-635bff?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" /></a>
 <a href="https://www.paypal.com/paypalme/filipemota" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" /></a>
-&nbsp;
+<a href="https://ko-fi.com/blackspirits" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support on Ko-fi" /></a>
+<a href="https://buymeacoffee.com/blackspirits28" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee" /></a>
 <a href="mailto:blackspirits@gmail.com" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
