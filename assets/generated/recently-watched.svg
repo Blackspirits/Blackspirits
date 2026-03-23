@@ -64,7 +64,7 @@
 
     <text x="268.6666666666667" y="68" text-anchor="end"
           font-family="system-ui,-apple-system,sans-serif"
-          font-size="10.5" font-weight="600" fill="#9399b2">1w ago</text>
+          font-size="10.5" font-weight="600" fill="#9399b2">today</text>
 
     <rect width="278.6666666666667" height="84" rx="10" fill="none"
           stroke="#fab387" stroke-width=".6" stroke-opacity=".18"/>
@@ -182,5 +182,5 @@
   <rect x=".5" y=".5" width="899" height="219" rx="14" ry="14"
         fill="none" stroke="#cdd6f4" stroke-opacity=".08" stroke-width="1"/>
 
-  <!-- generated: 2026-03-22T06:49:51.351Z -->
+  <!-- generated: 2026-03-23T07:07:40.182Z -->
 </svg>
